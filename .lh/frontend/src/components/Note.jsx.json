@@ -1,0 +1,42 @@
+{
+    "sourceFile": "frontend/src/components/Note.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 6,
+            "patches": [
+                {
+                    "date": 1712310136387,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1712310143802,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,4 @@\n-import \n\\ No newline at end of file\n+import React from \"react\";\r\n+\r\n+\r\n+function\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712310151341,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,4 @@\n+import React from \"react\";\r\n+\r\n+\r\n+function Note()\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712310159570,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,4 @@\n import React from \"react\";\r\n \r\n \r\n-function Note()\n-import React from \"react\";\r\n-\r\n-\r\n-function\n\\ No newline at end of file\n+function Note({}) \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712310167571,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,4 @@\n+import React from \"react\";\r\n+\r\n+\r\n+function Note({note, onDelete}) \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712314540660,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n import React from \"react\";\r\n \r\n \r\n function Note({note, onDelete}){\r\n-    \r\n+    return\r\n } \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712314546680,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,6 @@\n+import React from \"react\";\r\n+\r\n+\r\n+function Note({note, onDelete}){\r\n+    return <div className=\"\"></div>\r\n+} \n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1712310136387,
+            "name": "Commit-0",
+            "content": "import "
+        }
+    ]
+}

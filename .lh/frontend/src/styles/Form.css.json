@@ -1,0 +1,18 @@
+{
+    "sourceFile": "frontend/src/styles/Form.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1712236537778,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1712236537778,
+            "name": "Commit-0",
+            "content": "/* FormStyles.css */\r\n.form-container {\r\n    display: flex;\r\n    flex-direction: column;\r\n    align-items: center;\r\n    justify-content: center;\r\n    margin: 50px auto;\r\n    padding: 20px;\r\n    border-radius: 8px;\r\n    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);\r\n    max-width: 400px;\r\n}\r\n\r\n.form-input {\r\n    width: 90%;\r\n    padding: 10px;\r\n    margin: 10px 0;\r\n    border: 1px solid #ccc;\r\n    border-radius: 4px;\r\n    box-sizing: border-box;\r\n}\r\n\r\n.form-button {\r\n    width: 95%;\r\n    padding: 10px;\r\n    margin: 20px 0;\r\n    background-color: #007bff;\r\n    color: white;\r\n    border: none;\r\n    border-radius: 4px;\r\n    cursor: pointer;\r\n    transition: background-color 0.2s ease-in-out;\r\n}\r\n\r\n.form-button:hover {\r\n    background-color: #0056b3;\r\n}"
+        }
+    ]
+}

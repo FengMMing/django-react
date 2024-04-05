@@ -1,0 +1,134 @@
+{
+    "sourceFile": "backend/api/views.py",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 29,
+            "patches": [
+                {
+                    "date": 1712131901845,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1712131913827,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,6 @@\n from django.shortcuts import render\r\n \r\n+\r\n+\r\n # Create your views here.\r\n \r\n"
+                },
+                {
+                    "date": 1712131920913,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n from django.shortcuts import render\r\n+from django\r\n \r\n \r\n-\r\n # Create your views here.\r\n \r\n"
+                },
+                {
+                    "date": 1712131928709,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n from django.shortcuts import render\r\n-from django\r\n+from django.cont\r\n \r\n \r\n # Create your views here.\r\n \r\n"
+                },
+                {
+                    "date": 1712131935581,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n from django.shortcuts import render\r\n-from django.cont\r\n+from django.contrib.auth.mo\r\n \r\n \r\n # Create your views here.\r\n \r\n"
+                },
+                {
+                    "date": 1712131941122,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n from django.shortcuts import render\r\n-from django.contrib.auth.mo\r\n+from django.contrib.auth.models import \r\n \r\n \r\n # Create your views here.\r\n \r\n"
+                },
+                {
+                    "date": 1712131948185,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,7 @@\n from django.shortcuts import render\r\n-from django.contrib.auth.models import \r\n+from django.contrib.auth.models import User\r\n+from \r\n \r\n \r\n # Create your views here.\r\n \r\n"
+                },
+                {
+                    "date": 1712131953368,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n from django.shortcuts import render\r\n from django.contrib.auth.models import User\r\n-from \r\n+from rest_framework import\r\n \r\n \r\n # Create your views here.\r\n \r\n"
+                },
+                {
+                    "date": 1712131959769,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,7 @@\n+from django.shortcuts import render\r\n+from django.contrib.auth.models import User\r\n+from rest_framework import generics\r\n+\r\n+\r\n+# Create your views here.\r\n+\r\n"
+                },
+                {
+                    "date": 1712131964881,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,8 @@\n+from django.shortcuts import render\r\n+from django.contrib.auth.models import User\r\n+from rest_framework import generics\r\n+from \r\n+\r\n+\r\n+# Create your views here.\r\n+\r\n"
+                },
+                {
+                    "date": 1712131970541,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,22 +1,8 @@\n from django.shortcuts import render\r\n from django.contrib.auth.models import User\r\n from rest_framework import generics\r\n-from \r\n+from .serializers import\r\n \r\n \r\n # Create your views here.\r\n \r\n-from django.shortcuts import render\r\n-from django.contrib.auth.models import User\r\n-from rest_framework import generics\r\n-\r\n-\r\n-# Create your views here.\r\n-\r\n-from django.shortcuts import render\r\n-from django.contrib.auth.models import User\r\n-from rest_framework import\r\n-\r\n-\r\n-# Create your views here.\r\n-\r\n"
+                },
+                {
+                    "date": 1712131977548,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,9 @@\n from django.shortcuts import render\r\n from django.contrib.auth.models import User\r\n from rest_framework import generics\r\n-from .serializers import\r\n+from .serializers import UserSerializer\r\n+from \r\n \r\n \r\n # Create your views here.\r\n \r\n"
+                },
+                {
+                    "date": 1712131984698,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n from django.shortcuts import render\r\n from django.contrib.auth.models import User\r\n from rest_framework import generics\r\n from .serializers import UserSerializer\r\n-from \r\n+from rest_framework\r\n \r\n \r\n # Create your views here.\r\n \r\n"
+                },
+                {
+                    "date": 1712131991728,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,9 @@\n+from django.shortcuts import render\r\n+from django.contrib.auth.models import User\r\n+from rest_framework import generics\r\n+from .serializers import UserSerializer\r\n+from rest_framework.permissions\r\n+\r\n+\r\n+# Create your views here.\r\n+\r\n"
+                },
+                {
+                    "date": 1712131999935,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,18 +1,9 @@\n from django.shortcuts import render\r\n from django.contrib.auth.models import User\r\n from rest_framework import generics\r\n from .serializers import UserSerializer\r\n-from rest_framework.permissions\r\n+from rest_framework.permissions import IsAuthenticated, A\r\n \r\n \r\n # Create your views here.\r\n \r\n-from django.shortcuts import render\r\n-from django.contrib.auth.models import User\r\n-from rest_framework import generics\r\n-from .serializers import UserSerializer\r\n-from rest_framework\r\n-\r\n-\r\n-# Create your views here.\r\n-\r\n"
+                },
+                {
+                    "date": 1712132006669,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,9 @@\n+from django.shortcuts import render\r\n+from django.contrib.auth.models import User\r\n+from rest_framework import generics\r\n+from .serializers import UserSerializer\r\n+from rest_framework.permissions import IsAuthenticated, Allow\r\n+\r\n+\r\n+# Create your views here.\r\n+\r\n"
+                },
+                {
+                    "date": 1712132014550,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,18 +1,9 @@\n from django.shortcuts import render\r\n from django.contrib.auth.models import User\r\n from rest_framework import generics\r\n from .serializers import UserSerializer\r\n-from rest_framework.permissions import IsAuthenticated, Allow\r\n+from rest_framework.permissions import IsAuthenticated, AllowAny\r\n \r\n \r\n # Create your views here.\r\n \r\n-from django.shortcuts import render\r\n-from django.contrib.auth.models import User\r\n-from rest_framework import generics\r\n-from .serializers import UserSerializer\r\n-from rest_framework.permissions import IsAuthenticated, A\r\n-\r\n-\r\n-# Create your views here.\r\n-\r\n"
+                },
+                {
+                    "date": 1712132021870,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,7 +3,7 @@\n from rest_framework import generics\r\n from .serializers import UserSerializer\r\n from rest_framework.permissions import IsAuthenticated, AllowAny\r\n \r\n-\r\n # Create your views here.\r\n+class Creat\r\n \r\n"
+                },
+                {
+                    "date": 1712132027283,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,6 +4,6 @@\n from .serializers import UserSerializer\r\n from rest_framework.permissions import IsAuthenticated, AllowAny\r\n \r\n # Create your views here.\r\n-class Creat\r\n+class CreateUser\r\n \r\n"
+                },
+                {
+                    "date": 1712132032404,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,6 +4,6 @@\n from .serializers import UserSerializer\r\n from rest_framework.permissions import IsAuthenticated, AllowAny\r\n \r\n # Create your views here.\r\n-class CreateUser\r\n+class CreateUserView(gen)\r\n \r\n"
+                },
+                {
+                    "date": 1712132037720,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,6 +4,6 @@\n from .serializers import UserSerializer\r\n from rest_framework.permissions import IsAuthenticated, AllowAny\r\n \r\n # Create your views here.\r\n-class CreateUserView(gen)\r\n+class CreateUserView(generics.C)\r\n \r\n"
+                },
+                {
+                    "date": 1712132045300,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,6 +4,6 @@\n from .serializers import UserSerializer\r\n from rest_framework.permissions import IsAuthenticated, AllowAny\r\n \r\n # Create your views here.\r\n-class CreateUserView(generics.C)\r\n+class CreateUserView(generics.CreateApi)\r\n \r\n"
+                },
+                {
+                    "date": 1712132051109,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,6 +4,6 @@\n from .serializers import UserSerializer\r\n from rest_framework.permissions import IsAuthenticated, AllowAny\r\n \r\n # Create your views here.\r\n-class CreateUserView(generics.CreateApi)\r\n+class CreateUserView(generics.CreateAPIView)\r\n \r\n"
+                },
+                {
+                    "date": 1712132059446,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,6 +4,7 @@\n from .serializers import UserSerializer\r\n from rest_framework.permissions import IsAuthenticated, AllowAny\r\n \r\n # Create your views here.\r\n-class CreateUserView(generics.CreateAPIView)\r\n+class CreateUserView(generics.CreateAPIView):\r\n+    queryset = \r\n \r\n"
+                },
+                {
+                    "date": 1712132067469,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,6 +5,7 @@\n from rest_framework.permissions import IsAuthenticated, AllowAny\r\n \r\n # Create your views here.\r\n class CreateUserView(generics.CreateAPIView):\r\n-    queryset = \r\n+    queryset = User.objects.all()\r\n+    \r\n \r\n"
+                },
+                {
+                    "date": 1712132074630,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,6 +6,6 @@\n \r\n # Create your views here.\r\n class CreateUserView(generics.CreateAPIView):\r\n     queryset = User.objects.all()\r\n-    \r\n+    serializer_\r\n \r\n"
+                },
+                {
+                    "date": 1712132081242,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,6 +6,7 @@\n \r\n # Create your views here.\r\n class CreateUserView(generics.CreateAPIView):\r\n     queryset = User.objects.all()\r\n-    serializer_\r\n+    serializer_class = User\r\n+    \r\n \r\n"
+                },
+                {
+                    "date": 1712132087670,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,6 +7,6 @@\n # Create your views here.\r\n class CreateUserView(generics.CreateAPIView):\r\n     queryset = User.objects.all()\r\n     serializer_class = User\r\n-    \r\n+    permissions_class\r\n \r\n"
+                },
+                {
+                    "date": 1712132093146,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,6 +7,6 @@\n # Create your views here.\r\n class CreateUserView(generics.CreateAPIView):\r\n     queryset = User.objects.all()\r\n     serializer_class = User\r\n-    permissions_classes = \r\n+    permissions_classes = [AllowAny]\r\n \r\n"
+                },
+                {
+                    "date": 1712135456758,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,12 @@\n+from django.shortcuts import render\r\n+from django.contrib.auth.models import User\r\n+from rest_framework import generics\r\n+from .serializers import UserSerializer\r\n+from rest_framework.permissions import IsAuthenticated, AllowAny\r\n+\r\n+# Create your views here.\r\n+class CreateUserView(generics.CreateAPIView):\r\n+    queryset = User.objects.all()\r\n+    serializer_class = UserSerializer\r\n+    permission_classes = [AllowAny]\r\n+\r\n"
+                }
+            ],
+            "date": 1712131901845,
+            "name": "Commit-0",
+            "content": "from django.shortcuts import render\r\n\r\n# Create your views here.\r\n\r\n"
+        }
+    ]
+}

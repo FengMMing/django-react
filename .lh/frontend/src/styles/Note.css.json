@@ -1,0 +1,18 @@
+{
+    "sourceFile": "frontend/src/styles/Note.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1712315548323,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1712315548323,
+            "name": "Commit-0",
+            "content": "/* NoteStyles.css */\r\n\r\n.note-container {\r\n    padding: 10px;\r\n    margin: 20px 0;\r\n    border: 1px solid #ccc;\r\n    border-radius: 5px;\r\n}\r\n\r\n.note-title {\r\n    color: #333;\r\n}\r\n\r\n.note-content {\r\n    color: #666;\r\n}\r\n\r\n.note-date {\r\n    color: #999;\r\n    font-size: 0.8rem;\r\n}\r\n\r\n.delete-button {\r\n    background-color: #f44336;\r\n    /* Red */\r\n    color: white;\r\n    border: none;\r\n    padding: 10px 20px;\r\n    border-radius: 5px;\r\n    cursor: pointer;\r\n    transition: background-color 0.3s;\r\n}\r\n\r\n.delete-button:hover {\r\n    background-color: #d32f2f;\r\n    /* Darker red */\r\n}"
+        }
+    ]
+}

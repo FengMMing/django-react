@@ -1,0 +1,218 @@
+{
+    "sourceFile": "frontend/src/pages/Home.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 50,
+            "patches": [
+                {
+                    "date": 1712221143645,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1712221149722,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-fi\n\\ No newline at end of file\n+function Home()\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712221158264,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-function Home()\n\\ No newline at end of file\n+function Home() {}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712221166189,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,4 @@\n-function Home() {}\n\\ No newline at end of file\n+function Home() {\r\n+    \r\n+}\r\n+\r\n"
+                },
+                {
+                    "date": 1712221172832,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,5 @@\n function Home() {\r\n-    \r\n+\r\n }\r\n \r\n+export default H\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712221181714,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n function Home() {\r\n-\r\n+    re\r\n }\r\n \r\n\\ No newline at end of file\n-export default H\n+export default Home\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712221188510,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n function Home() {\r\n-    re\r\n+    return <div></div>\r\n }\r\n \r\n export default Home\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712221200279,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n function Home() {\r\n-    return <div></div>\r\n+    return <div>Home</div>\r\n }\r\n \r\n export default Home\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712303786285,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,6 @@\n+\r\n+\r\n function Home() {\r\n     return <div>Home</div>\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1712303793773,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n+import {}\r\n \r\n-\r\n function Home() {\r\n     return <div>Home</div>\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1712303799149,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-import {}\r\n+import { useState } from \"react\"\r\n \r\n function Home() {\r\n     return <div>Home</div>\r\n }\r\n"
+                },
+                {
+                    "date": 1712303804339,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-import { useState } from \"react\"\r\n+import { useState, useEffect } from \"react\"\r\n \r\n function Home() {\r\n     return <div>Home</div>\r\n }\r\n"
+                },
+                {
+                    "date": 1712303813674,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,6 @@\n import { useState, useEffect } from \"react\"\r\n+import api \r\n \r\n function Home() {\r\n     return <div>Home</div>\r\n }\r\n"
+                },
+                {
+                    "date": 1712303819444,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n import { useState, useEffect } from \"react\"\r\n-import api \r\n+import api from \"\"\r\n \r\n function Home() {\r\n     return <div>Home</div>\r\n }\r\n"
+                },
+                {
+                    "date": 1712303827409,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,10 @@\n import { useState, useEffect } from \"react\"\r\n-import api from \"\"\r\n+import api from \"../api\"\r\n \r\n function Home() {\r\n+\r\n+    \r\n     return <div>Home</div>\r\n }\r\n \r\n export default Home\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712303835375,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,10 @@\n import { useState, useEffect } from \"react\"\r\n import api from \"../api\"\r\n \r\n function Home() {\r\n+    const \r\n \r\n-    \r\n     return <div>Home</div>\r\n }\r\n \r\n export default Home\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712303842369,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import { useState, useEffect } from \"react\"\r\n import api from \"../api\"\r\n \r\n function Home() {\r\n-    const \r\n+    const [notes, setnotes]\r\n \r\n     return <div>Home</div>\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1712303850375,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import { useState, useEffect } from \"react\"\r\n import api from \"../api\"\r\n \r\n function Home() {\r\n-    const [notes, setnotes]\r\n+    const [notes, setnotes] = useState([])\r\n \r\n     return <div>Home</div>\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1712303875298,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,9 @@\n import api from \"../api\"\r\n \r\n function Home() {\r\n     const [notes, setnotes] = useState([])\r\n+    const [content]\r\n \r\n     return <div>Home</div>\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1712303884165,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n import api from \"../api\"\r\n \r\n function Home() {\r\n     const [notes, setnotes] = useState([])\r\n-    const [content]\r\n+    const [content, setConte]\r\n \r\n     return <div>Home</div>\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1712303892272,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,11 @@\n+import { useState, useEffect } from \"react\"\r\n+import api from \"../api\"\r\n+\r\n+function Home() {\r\n+    const [notes, setNotes] = useState([])\r\n+    const [content, setContent] = use\r\n+\r\n+    return <div>Home</div>\r\n+}\r\n+\r\n+export default Home\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712303901461,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,21 +2,11 @@\n import api from \"../api\"\r\n \r\n function Home() {\r\n     const [notes, setNotes] = useState([])\r\n-    const [content, setContent] = use\r\n+    const [content, setContent] = useState(\"\")\r\n+    \r\n \r\n     return <div>Home</div>\r\n }\r\n \r\n-export default Home\n-import { useState, useEffect } from \"react\"\r\n-import api from \"../api\"\r\n-\r\n-function Home() {\r\n-    const [notes, setnotes] = useState([])\r\n-    const [content, setConte]\r\n-\r\n-    return <div>Home</div>\r\n-}\r\n-\r\n export default Home\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712303907670,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n \r\n function Home() {\r\n     const [notes, setNotes] = useState([])\r\n     const [content, setContent] = useState(\"\")\r\n-    \r\n+    const [title, ]\r\n \r\n     return <div>Home</div>\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1712303917165,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n \r\n function Home() {\r\n     const [notes, setNotes] = useState([])\r\n     const [content, setContent] = useState(\"\")\r\n-    const [title, ]\r\n+    const [title, setTitle] = useState(\"\")\r\n \r\n     return <div>Home</div>\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1712303930722,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,8 +5,10 @@\n     const [notes, setNotes] = useState([])\r\n     const [content, setContent] = useState(\"\")\r\n     const [title, setTitle] = useState(\"\")\r\n \r\n+    con\r\n+\r\n     return <div>Home</div>\r\n }\r\n \r\n export default Home\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712303939759,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,11 @@\n     const [notes, setNotes] = useState([])\r\n     const [content, setContent] = useState(\"\")\r\n     const [title, setTitle] = useState(\"\")\r\n \r\n-    con\r\n+    const getNote = ()=>{\r\n+        \r\n+    }\r\n \r\n     return <div>Home</div>\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1712303945419,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n     const [content, setContent] = useState(\"\")\r\n     const [title, setTitle] = useState(\"\")\r\n \r\n     const getNote = ()=>{\r\n-        \r\n+        <api className=\"get\"></api>\r\n     }\r\n \r\n     return <div>Home</div>\r\n }\r\n"
+                },
+                {
+                    "date": 1712303953397,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n     const [content, setContent] = useState(\"\")\r\n     const [title, setTitle] = useState(\"\")\r\n \r\n     const getNote = ()=>{\r\n-        <api className=\"get\"></api>\r\n+        api.get(\"/\")\r\n     }\r\n \r\n     return <div>Home</div>\r\n }\r\n"
+                },
+                {
+                    "date": 1712303959954,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,16 @@\n+import { useState, useEffect } from \"react\"\r\n+import api from \"../api\"\r\n+\r\n+function Home() {\r\n+    const [notes, setNotes] = useState([])\r\n+    const [content, setContent] = useState(\"\")\r\n+    const [title, setTitle] = useState(\"\")\r\n+\r\n+    const getNote = ()=>{\r\n+        api.get(\"/api/notes/\")\r\n+    }\r\n+\r\n+    return <div>Home</div>\r\n+}\r\n+\r\n+export default Home\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712304282473,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,27 +6,11 @@\n     const [content, setContent] = useState(\"\")\r\n     const [title, setTitle] = useState(\"\")\r\n \r\n     const getNote = ()=>{\r\n-        api.get(\"/api/notes/\")\r\n+        api.get(\"/api/notes/\").then\r\n     }\r\n \r\n     return <div>Home</div>\r\n }\r\n \r\n-export default Home\n-import { useState, useEffect } from \"react\"\r\n-import api from \"../api\"\r\n-\r\n-function Home() {\r\n-    const [notes, setNotes] = useState([])\r\n-    const [content, setContent] = useState(\"\")\r\n-    const [title, setTitle] = useState(\"\")\r\n-\r\n-    const getNote = ()=>{\r\n-        api.get(\"/\")\r\n-    }\r\n-\r\n-    return <div>Home</div>\r\n-}\r\n-\r\n export default Home\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712304290684,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n     const [content, setContent] = useState(\"\")\r\n     const [title, setTitle] = useState(\"\")\r\n \r\n     const getNote = ()=>{\r\n-        api.get(\"/api/notes/\").then\r\n+        api.get(\"/api/notes/\").then(())\r\n     }\r\n \r\n     return <div>Home</div>\r\n }\r\n"
+                },
+                {
+                    "date": 1712304296342,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n     const [content, setContent] = useState(\"\")\r\n     const [title, setTitle] = useState(\"\")\r\n \r\n     const getNote = ()=>{\r\n-        api.get(\"/api/notes/\").then(())\r\n+        api.get(\"/api/notes/\").then((res)=>res.data)\r\n     }\r\n \r\n     return <div>Home</div>\r\n }\r\n"
+                },
+                {
+                    "date": 1712304303284,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n     const [content, setContent] = useState(\"\")\r\n     const [title, setTitle] = useState(\"\")\r\n \r\n     const getNote = ()=>{\r\n-        api.get(\"/api/notes/\").then((res)=>res.data)\r\n+        api.get(\"/api/notes/\").then((res)=>res.data).then(()=>)\r\n     }\r\n \r\n     return <div>Home</div>\r\n }\r\n"
+                },
+                {
+                    "date": 1712304311039,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n     const [content, setContent] = useState(\"\")\r\n     const [title, setTitle] = useState(\"\")\r\n \r\n     const getNote = ()=>{\r\n-        api.get(\"/api/notes/\").then((res)=>res.data).then(()=>)\r\n+        api.get(\"/api/notes/\").then((res)=>res.data).then((data)=>)\r\n     }\r\n \r\n     return <div>Home</div>\r\n }\r\n"
+                },
+                {
+                    "date": 1712304320528,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n     const [content, setContent] = useState(\"\")\r\n     const [title, setTitle] = useState(\"\")\r\n \r\n     const getNote = ()=>{\r\n-        api.get(\"/api/notes/\").then((res)=>res.data).then((data)=>)\r\n+        api.get(\"/api/notes/\").then((res)=>res.data).then((data)=>setNotes(data))\r\n     }\r\n \r\n     return <div>Home</div>\r\n }\r\n"
+                },
+                {
+                    "date": 1712304329494,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,10 @@\n     const [content, setContent] = useState(\"\")\r\n     const [title, setTitle] = useState(\"\")\r\n \r\n     const getNote = ()=>{\r\n-        api.get(\"/api/notes/\").then((res)=>res.data).then((data)=>setNotes(data))\r\n+        api.get(\"/api/notes/\")\r\n+        .then((res)=>res.data).then((data)=>setNotes(data))\r\n     }\r\n \r\n     return <div>Home</div>\r\n }\r\n"
+                },
+                {
+                    "date": 1712304338042,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,11 @@\n     const [title, setTitle] = useState(\"\")\r\n \r\n     const getNote = ()=>{\r\n         api.get(\"/api/notes/\")\r\n-        .then((res)=>res.data).then((data)=>setNotes(data))\r\n+        .then((res)=>res.data)\r\n+        .then((data)=>setNotes(data))\r\n+        .cat\r\n     }\r\n \r\n     return <div>Home</div>\r\n }\r\n"
+                },
+                {
+                    "date": 1712304347748,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n     const getNote = ()=>{\r\n         api.get(\"/api/notes/\")\r\n         .then((res)=>res.data)\r\n         .then((data)=>setNotes(data))\r\n-        .cat\r\n+        .catch((err)=>)\r\n     }\r\n \r\n     return <div>Home</div>\r\n }\r\n"
+                },
+                {
+                    "date": 1712304353073,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n     const getNote = ()=>{\r\n         api.get(\"/api/notes/\")\r\n         .then((res)=>res.data)\r\n         .then((data)=>setNotes(data))\r\n-        .catch((err)=>)\r\n+        .catch((err)=>alert(err))\r\n     }\r\n \r\n     return <div>Home</div>\r\n }\r\n"
+                },
+                {
+                    "date": 1712304384479,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n     const [notes, setNotes] = useState([])\r\n     const [content, setContent] = useState(\"\")\r\n     const [title, setTitle] = useState(\"\")\r\n \r\n-    const getNote = ()=>{\r\n+    const getNotes = ()=>{\r\n         api.get(\"/api/notes/\")\r\n         .then((res)=>res.data)\r\n         .then((data)=>setNotes(data))\r\n         .catch((err)=>alert(err))\r\n"
+                },
+                {
+                    "date": 1712304390521,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,8 +5,10 @@\n     const [notes, setNotes] = useState([])\r\n     const [content, setContent] = useState(\"\")\r\n     const [title, setTitle] = useState(\"\")\r\n \r\n+    useEffect\r\n+\r\n     const getNotes = ()=>{\r\n         api.get(\"/api/notes/\")\r\n         .then((res)=>res.data)\r\n         .then((data)=>setNotes(data))\r\n"
+                },
+                {
+                    "date": 1712304395900,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n     const [notes, setNotes] = useState([])\r\n     const [content, setContent] = useState(\"\")\r\n     const [title, setTitle] = useState(\"\")\r\n \r\n-    useEffect\r\n+    useEffect(()=>{})\r\n \r\n     const getNotes = ()=>{\r\n         api.get(\"/api/notes/\")\r\n         .then((res)=>res.data)\r\n"
+                },
+                {
+                    "date": 1712304401954,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,10 +5,12 @@\n     const [notes, setNotes] = useState([])\r\n     const [content, setContent] = useState(\"\")\r\n     const [title, setTitle] = useState(\"\")\r\n \r\n-    useEffect(()=>{})\r\n+    useEffect(()=>{\r\n \r\n+    },[])\r\n+\r\n     const getNotes = ()=>{\r\n         api.get(\"/api/notes/\")\r\n         .then((res)=>res.data)\r\n         .then((data)=>setNotes(data))\r\n"
+                },
+                {
+                    "date": 1712304407477,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n     const [content, setContent] = useState(\"\")\r\n     const [title, setTitle] = useState(\"\")\r\n \r\n     useEffect(()=>{\r\n-\r\n+        getNotes()\r\n     },[])\r\n \r\n     const getNotes = ()=>{\r\n         api.get(\"/api/notes/\")\r\n"
+                },
+                {
+                    "date": 1712304426893,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n \r\n     const getNotes = ()=>{\r\n         api.get(\"/api/notes/\")\r\n         .then((res)=>res.data)\r\n-        .then((data)=>setNotes(data))\r\n+        .then((data)=>setNotes(data, con))\r\n         .catch((err)=>alert(err))\r\n     }\r\n \r\n     return <div>Home</div>\r\n"
+                },
+                {
+                    "date": 1712304432266,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n \r\n     const getNotes = ()=>{\r\n         api.get(\"/api/notes/\")\r\n         .then((res)=>res.data)\r\n-        .then((data)=>setNotes(data, con))\r\n+        .then((data)=>setNotes(data, console.log(data)))\r\n         .catch((err)=>alert(err))\r\n     }\r\n \r\n     return <div>Home</div>\r\n"
+                },
+                {
+                    "date": 1712304441557,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n \r\n     const getNotes = ()=>{\r\n         api.get(\"/api/notes/\")\r\n         .then((res)=>res.data)\r\n-        .then((data)=>setNotes(data, console.log(data)))\r\n+        .then((data)=>setNotes(data, console.log(data))\r\n         .catch((err)=>alert(err))\r\n     }\r\n \r\n     return <div>Home</div>\r\n"
+                },
+                {
+                    "date": 1712304472814,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n \r\n     const getNotes = ()=>{\r\n         api.get(\"/api/notes/\")\r\n         .then((res)=>res.data)\r\n-        .then((data)=>setNotes(data, console.log(data))\r\n+        .then((data)=>{setNotes(data))\r\n         .catch((err)=>alert(err))\r\n     }\r\n \r\n     return <div>Home</div>\r\n"
+                },
+                {
+                    "date": 1712304483903,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n \r\n     const getNotes = ()=>{\r\n         api.get(\"/api/notes/\")\r\n         .then((res)=>res.data)\r\n-        .then((data)=>{setNotes(data))\r\n+        .then((data)=>{setNotes(data); console.log(data)})\r\n         .catch((err)=>alert(err))\r\n     }\r\n \r\n     return <div>Home</div>\r\n"
+                },
+                {
+                    "date": 1712304722856,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,9 @@\n         .then((data)=>{setNotes(data); console.log(data)})\r\n         .catch((err)=>alert(err))\r\n     }\r\n \r\n-    const \r\n+    const d\r\n \r\n     return <div>Home</div>\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1712304737599,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,11 @@\n         .then((data)=>{setNotes(data); console.log(data)})\r\n         .catch((err)=>alert(err))\r\n     }\r\n \r\n-    const deleteNote = (id)\r\n+    const deleteNote = (id)=>{\r\n+        \r\n+    }\r\n \r\n     return <div>Home</div>\r\n }\r\n \r\n"
+                }
+            ],
+            "date": 1712221143645,
+            "name": "Commit-0",
+            "content": "fi"
+        }
+    ]
+}

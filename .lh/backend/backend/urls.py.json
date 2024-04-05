@@ -1,0 +1,150 @@
+{
+    "sourceFile": "backend/backend/urls.py",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 33,
+            "patches": [
+                {
+                    "date": 1712132737833,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1712132753048,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,8 @@\n-\r\n from django.contrib import admin\r\n from django.urls import path\r\n \r\n+\r\n+\r\n urlpatterns = [\r\n     path(\"admin/\", admin.site.urls),\r\n ]\r\n"
+                },
+                {
+                    "date": 1712132758856,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n from django.contrib import admin\r\n from django.urls import path\r\n+from api.\r\n \r\n \r\n-\r\n urlpatterns = [\r\n     path(\"admin/\", admin.site.urls),\r\n ]\r\n"
+                },
+                {
+                    "date": 1712132766223,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n from django.contrib import admin\r\n from django.urls import path\r\n-from api.\r\n+from api.views import\r\n \r\n \r\n urlpatterns = [\r\n     path(\"admin/\", admin.site.urls),\r\n"
+                },
+                {
+                    "date": 1712132774650,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,9 @@\n from django.contrib import admin\r\n from django.urls import path\r\n-from api.views import\r\n+from api.views import CreateUserView\r\n \r\n \r\n+\r\n urlpatterns = [\r\n     path(\"admin/\", admin.site.urls),\r\n ]\r\n"
+                },
+                {
+                    "date": 1712132779924,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,9 @@\n+from django.contrib import admin\r\n+from django.urls import path\r\n+from api.views import CreateUserView\r\n+from \r\n+\r\n+\r\n+urlpatterns = [\r\n+    path(\"admin/\", admin.site.urls),\r\n+]\r\n"
+                },
+                {
+                    "date": 1712132786946,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,9 @@\n+from django.contrib import admin\r\n+from django.urls import path\r\n+from api.views import CreateUserView\r\n+from rest_framework_s\r\n+\r\n+\r\n+urlpatterns = [\r\n+    path(\"admin/\", admin.site.urls),\r\n+]\r\n"
+                },
+                {
+                    "date": 1712132792855,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,27 +1,9 @@\n from django.contrib import admin\r\n from django.urls import path\r\n from api.views import CreateUserView\r\n-from rest_framework_s\r\n+from rest_framework_simplejwt.views\r\n \r\n \r\n urlpatterns = [\r\n     path(\"admin/\", admin.site.urls),\r\n ]\r\n-from django.contrib import admin\r\n-from django.urls import path\r\n-from api.views import CreateUserView\r\n-from \r\n-\r\n-\r\n-urlpatterns = [\r\n-    path(\"admin/\", admin.site.urls),\r\n-]\r\n-from django.contrib import admin\r\n-from django.urls import path\r\n-from api.views import CreateUserView\r\n-\r\n-\r\n-\r\n-urlpatterns = [\r\n-    path(\"admin/\", admin.site.urls),\r\n-]\r\n"
+                },
+                {
+                    "date": 1712132798068,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n from django.contrib import admin\r\n from django.urls import path\r\n from api.views import CreateUserView\r\n-from rest_framework_simplejwt.views\r\n+from rest_framework_simplejwt.views import To\r\n \r\n \r\n urlpatterns = [\r\n     path(\"admin/\", admin.site.urls),\r\n"
+                },
+                {
+                    "date": 1712132804728,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n from django.contrib import admin\r\n from django.urls import path\r\n from api.views import CreateUserView\r\n-from rest_framework_simplejwt.views import To\r\n+from rest_framework_simplejwt.views import TokenObtain\r\n \r\n \r\n urlpatterns = [\r\n     path(\"admin/\", admin.site.urls),\r\n"
+                },
+                {
+                    "date": 1712132810117,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n from django.contrib import admin\r\n from django.urls import path\r\n from api.views import CreateUserView\r\n-from rest_framework_simplejwt.views import TokenObtain\r\n+from rest_framework_simplejwt.views import TokenObtainPair\r\n \r\n \r\n urlpatterns = [\r\n     path(\"admin/\", admin.site.urls),\r\n"
+                },
+                {
+                    "date": 1712132817027,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n from django.contrib import admin\r\n from django.urls import path\r\n from api.views import CreateUserView\r\n-from rest_framework_simplejwt.views import TokenObtainPair\r\n+from rest_framework_simplejwt.views import TokenObtainPairView, Token\r\n \r\n \r\n urlpatterns = [\r\n     path(\"admin/\", admin.site.urls),\r\n"
+                },
+                {
+                    "date": 1712132822472,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n from django.contrib import admin\r\n from django.urls import path\r\n from api.views import CreateUserView\r\n-from rest_framework_simplejwt.views import TokenObtainPairView, Token\r\n+from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefres\r\n \r\n \r\n urlpatterns = [\r\n     path(\"admin/\", admin.site.urls),\r\n"
+                },
+                {
+                    "date": 1712132828110,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n from django.contrib import admin\r\n from django.urls import path\r\n from api.views import CreateUserView\r\n-from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefres\r\n+from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView\r\n \r\n \r\n urlpatterns = [\r\n     path(\"admin/\", admin.site.urls),\r\n"
+                },
+                {
+                    "date": 1712132867369,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,10 @@\n+from django.contrib import admin\r\n+from django.urls import path\r\n+from api.views import CreateUserView\r\n+from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView\r\n+\r\n+\r\n+urlpatterns = [\r\n+    path(\"admin/\", admin.site.urls),\r\n+    \r\n+]\r\n"
+                },
+                {
+                    "date": 1712132873199,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,10 @@\n+from django.contrib import admin\r\n+from django.urls import path\r\n+from api.views import CreateUserView\r\n+from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView\r\n+\r\n+\r\n+urlpatterns = [\r\n+    path(\"admin/\", admin.site.urls),\r\n+    path(\"api\")\r\n+]\r\n"
+                },
+                {
+                    "date": 1712132880958,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,25 +5,6 @@\n \r\n \r\n urlpatterns = [\r\n     path(\"admin/\", admin.site.urls),\r\n-    path(\"api\")\r\n+    path(\"api/user/re\")\r\n ]\r\n-from django.contrib import admin\r\n-from django.urls import path\r\n-from api.views import CreateUserView\r\n-from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView\r\n-\r\n-\r\n-urlpatterns = [\r\n-    path(\"admin/\", admin.site.urls),\r\n-    \r\n-]\r\n-from django.contrib import admin\r\n-from django.urls import path\r\n-from api.views import CreateUserView\r\n-from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView\r\n-\r\n-\r\n-urlpatterns = [\r\n-    path(\"admin/\", admin.site.urls),\r\n-]\r\n"
+                },
+                {
+                    "date": 1712132886629,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,10 @@\n+from django.contrib import admin\r\n+from django.urls import path\r\n+from api.views import CreateUserView\r\n+from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView\r\n+\r\n+\r\n+urlpatterns = [\r\n+    path(\"admin/\", admin.site.urls),\r\n+    path(\"api/user/register/\")\r\n+]\r\n"
+                },
+                {
+                    "date": 1712132892586,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,16 +5,6 @@\n \r\n \r\n urlpatterns = [\r\n     path(\"admin/\", admin.site.urls),\r\n-    path(\"api/user/register/\")\r\n+    path(\"api/user/register/\", CreateUserView)\r\n ]\r\n-from django.contrib import admin\r\n-from django.urls import path\r\n-from api.views import CreateUserView\r\n-from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView\r\n-\r\n-\r\n-urlpatterns = [\r\n-    path(\"admin/\", admin.site.urls),\r\n-    path(\"api/user/re\")\r\n-]\r\n"
+                },
+                {
+                    "date": 1712132899128,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,6 +5,6 @@\n \r\n \r\n urlpatterns = [\r\n     path(\"admin/\", admin.site.urls),\r\n-    path(\"api/user/register/\", CreateUserView)\r\n+    path(\"api/user/register/\", CreateUserView.as_view)\r\n ]\r\n"
+                },
+                {
+                    "date": 1712132904470,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,6 +5,6 @@\n \r\n \r\n urlpatterns = [\r\n     path(\"admin/\", admin.site.urls),\r\n-    path(\"api/user/register/\", CreateUserView.as_view)\r\n+    path(\"api/user/register/\", CreateUserView.as_view(), name=)\r\n ]\r\n"
+                },
+                {
+                    "date": 1712132912454,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,6 +5,6 @@\n \r\n \r\n urlpatterns = [\r\n     path(\"admin/\", admin.site.urls),\r\n-    path(\"api/user/register/\", CreateUserView.as_view(), name=)\r\n+    path(\"api/user/register/\", CreateUserView.as_view(), name=\"register\")\r\n ]\r\n"
+                },
+                {
+                    "date": 1712132917951,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,6 +5,7 @@\n \r\n \r\n urlpatterns = [\r\n     path(\"admin/\", admin.site.urls),\r\n-    path(\"api/user/register/\", CreateUserView.as_view(), name=\"register\")\r\n+    path(\"api/user/register/\", CreateUserView.as_view(), name=\"register\"),\r\n+    \r\n ]\r\n"
+                },
+                {
+                    "date": 1712132945202,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,11 @@\n+from django.contrib import admin\r\n+from django.urls import path\r\n+from api.views import CreateUserView\r\n+from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView\r\n+\r\n+\r\n+urlpatterns = [\r\n+    path(\"admin/\", admin.site.urls),\r\n+    path(\"api/user/register/\", CreateUserView.as_view(), name=\"register\"),\r\n+    path(\"\")\r\n+]\r\n"
+                },
+                {
+                    "date": 1712132951431,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,17 +6,6 @@\n \r\n urlpatterns = [\r\n     path(\"admin/\", admin.site.urls),\r\n     path(\"api/user/register/\", CreateUserView.as_view(), name=\"register\"),\r\n-    path(\"\")\r\n+    path(\"api/token/\")\r\n ]\r\n-from django.contrib import admin\r\n-from django.urls import path\r\n-from api.views import CreateUserView\r\n-from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView\r\n-\r\n-\r\n-urlpatterns = [\r\n-    path(\"admin/\", admin.site.urls),\r\n-    path(\"api/user/register/\", CreateUserView.as_view(), name=\"register\"),\r\n-    \r\n-]\r\n"
+                },
+                {
+                    "date": 1712132958568,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,6 +6,6 @@\n \r\n urlpatterns = [\r\n     path(\"admin/\", admin.site.urls),\r\n     path(\"api/user/register/\", CreateUserView.as_view(), name=\"register\"),\r\n-    path(\"api/token/\")\r\n+    path(\"api/token/\", TokenObtainPairView)\r\n ]\r\n"
+                },
+                {
+                    "date": 1712132967806,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,6 +6,6 @@\n \r\n urlpatterns = [\r\n     path(\"admin/\", admin.site.urls),\r\n     path(\"api/user/register/\", CreateUserView.as_view(), name=\"register\"),\r\n-    path(\"api/token/\", TokenObtainPairView)\r\n+    path(\"api/token/\", TokenObtainPairView.as_view(), name=\"\")\r\n ]\r\n"
+                },
+                {
+                    "date": 1712132973916,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,6 +6,6 @@\n \r\n urlpatterns = [\r\n     path(\"admin/\", admin.site.urls),\r\n     path(\"api/user/register/\", CreateUserView.as_view(), name=\"register\"),\r\n-    path(\"api/token/\", TokenObtainPairView.as_view(), name=\"\")\r\n+    path(\"api/token/\", TokenObtainPairView.as_view(), name=\"get_token\")\r\n ]\r\n"
+                },
+                {
+                    "date": 1712132980592,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,12 @@\n+from django.contrib import admin\r\n+from django.urls import path\r\n+from api.views import CreateUserView\r\n+from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView\r\n+\r\n+\r\n+urlpatterns = [\r\n+    path(\"admin/\", admin.site.urls),\r\n+    path(\"api/user/register/\", CreateUserView.as_view(), name=\"register\"),\r\n+    path(\"api/token/\", TokenObtainPairView.as_view(), name=\"get_token\"),\r\n+    path()\r\n+]\r\n"
+                },
+                {
+                    "date": 1712132990084,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,17 +7,6 @@\n urlpatterns = [\r\n     path(\"admin/\", admin.site.urls),\r\n     path(\"api/user/register/\", CreateUserView.as_view(), name=\"register\"),\r\n     path(\"api/token/\", TokenObtainPairView.as_view(), name=\"get_token\"),\r\n-    path()\r\n+    path(\"api/token/refrsg\")\r\n ]\r\n-from django.contrib import admin\r\n-from django.urls import path\r\n-from api.views import CreateUserView\r\n-from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView\r\n-\r\n-\r\n-urlpatterns = [\r\n-    path(\"admin/\", admin.site.urls),\r\n-    path(\"api/user/register/\", CreateUserView.as_view(), name=\"register\"),\r\n-    path(\"api/token/\", TokenObtainPairView.as_view(), name=\"get_token\")\r\n-]\r\n"
+                },
+                {
+                    "date": 1712132996493,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,6 +7,6 @@\n urlpatterns = [\r\n     path(\"admin/\", admin.site.urls),\r\n     path(\"api/user/register/\", CreateUserView.as_view(), name=\"register\"),\r\n     path(\"api/token/\", TokenObtainPairView.as_view(), name=\"get_token\"),\r\n-    path(\"api/token/refrsg\")\r\n+    path(\"api/token/refresh\", )\r\n ]\r\n"
+                },
+                {
+                    "date": 1712133006224,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,6 +7,6 @@\n urlpatterns = [\r\n     path(\"admin/\", admin.site.urls),\r\n     path(\"api/user/register/\", CreateUserView.as_view(), name=\"register\"),\r\n     path(\"api/token/\", TokenObtainPairView.as_view(), name=\"get_token\"),\r\n-    path(\"api/token/refresh\", )\r\n+    path(\"api/token/refresh\", TokenRefreshView.as_view(), name=\"\")\r\n ]\r\n"
+                },
+                {
+                    "date": 1712133011306,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,6 +7,7 @@\n urlpatterns = [\r\n     path(\"admin/\", admin.site.urls),\r\n     path(\"api/user/register/\", CreateUserView.as_view(), name=\"register\"),\r\n     path(\"api/token/\", TokenObtainPairView.as_view(), name=\"get_token\"),\r\n-    path(\"api/token/refresh\", TokenRefreshView.as_view(), name=\"refresh\")\r\n+    path(\"api/token/refresh\", TokenRefreshView.as_view(), name=\"refresh\"),\r\n+    \r\n ]\r\n"
+                },
+                {
+                    "date": 1712133023489,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,13 @@\n+from django.contrib import admin\r\n+from django.urls import path\r\n+from api.views import CreateUserView\r\n+from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView\r\n+\r\n+\r\n+urlpatterns = [\r\n+    path(\"admin/\", admin.site.urls),\r\n+    path(\"api/user/register/\", CreateUserView.as_view(), name=\"register\"),\r\n+    path(\"api/token/\", TokenObtainPairView.as_view(), name=\"get_token\"),\r\n+    path(\"api/token/refresh\", TokenRefreshView.as_view(), name=\"refresh\"),\r\n+    path(\"\")\r\n+]\r\n"
+                }
+            ],
+            "date": 1712132737833,
+            "name": "Commit-0",
+            "content": "\r\nfrom django.contrib import admin\r\nfrom django.urls import path\r\n\r\nurlpatterns = [\r\n    path(\"admin/\", admin.site.urls),\r\n]\r\n"
+        }
+    ]
+}

@@ -1,0 +1,290 @@
+{
+    "sourceFile": "backend/api/serializers.py",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 68,
+            "patches": [
+                {
+                    "date": 1712130947316,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1712130953685,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-form \n\\ No newline at end of file\n+from\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712130961475,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-from\n\\ No newline at end of file\n+from django.con\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712130967809,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-from django.con\n\\ No newline at end of file\n+from django.contrib.auth.models\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712130972963,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,1 @@\n+from django.contrib.auth.models import User\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712131047699,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,2 @@\n-from django.contrib.auth.models import User\n-from django.contrib.auth.models\n\\ No newline at end of file\n+from django.contrib.auth.models import User\r\n+from \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712131053684,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,2 @@\n from django.contrib.auth.models import User\r\n-from \n\\ No newline at end of file\n+from rest_framework import\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712131063576,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,2 @@\n from django.contrib.auth.models import User\r\n-from rest_framework import\n\\ No newline at end of file\n+from rest_framework import seria\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712131068630,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,2 @@\n from django.contrib.auth.models import User\r\n-from rest_framework import seria\n\\ No newline at end of file\n+from rest_framework import serializers\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712131073745,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,3 @@\n from django.contrib.auth.models import User\r\n-from rest_framework import serializers\n\\ No newline at end of file\n+from rest_framework import serializers\r\n+\r\n"
+                },
+                {
+                    "date": 1712131609413,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,4 @@\n from django.contrib.auth.models import User\r\n from rest_framework import serializers\r\n \r\n+cla\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712131617522,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n from django.contrib.auth.models import User\r\n from rest_framework import serializers\r\n \r\n-cla\n\\ No newline at end of file\n+class UserSeri\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712131625503,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n from django.contrib.auth.models import User\r\n from rest_framework import serializers\r\n \r\n-class UserSeri\n\\ No newline at end of file\n+class UserSerializers(serializers)\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712131634852,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n from django.contrib.auth.models import User\r\n from rest_framework import serializers\r\n \r\n-class UserSerializers(serializers)\n\\ No newline at end of file\n+class UserSerializers(serializers.ModelSeri)\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712131686239,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n from django.contrib.auth.models import User\r\n from rest_framework import serializers\r\n \r\n-class UserSerializers(serializers.ModelSeri)\n\\ No newline at end of file\n+class UserSerializers(serializers.ModelSerializer)\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712131694914,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n from django.contrib.auth.models import User\r\n from rest_framework import serializers\r\n \r\n-class UserSerializers(serializers.ModelSerializer)\n\\ No newline at end of file\n+class UserSerializer(serializers.ModelSerializer)\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712131700011,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,4 @@\n+from django.contrib.auth.models import User\r\n+from rest_framework import serializers\r\n+\r\n+class UserSerializer(serializers.ModelSerializer)\r\n"
+                },
+                {
+                    "date": 1712131707510,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,5 @@\n from django.contrib.auth.models import User\r\n from rest_framework import serializers\r\n \r\n class UserSerializer(serializers.ModelSerializer)\r\n-from django.contrib.auth.models import User\r\n-from rest_framework import serializers\r\n-\r\n-class UserSerializer(serializers.ModelSerializer)\n\\ No newline at end of file\n+    class\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712131713344,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,6 @@\n from django.contrib.auth.models import User\r\n from rest_framework import serializers\r\n \r\n class UserSerializer(serializers.ModelSerializer)\r\n-    class\n\\ No newline at end of file\n+    class Meta:\r\n+        \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712131720220,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,5 +2,5 @@\n from rest_framework import serializers\r\n \r\n class UserSerializer(serializers.ModelSerializer)\r\n     class Meta:\r\n-        \n\\ No newline at end of file\n+        model = \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712131726409,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,5 +2,6 @@\n from rest_framework import serializers\r\n \r\n class UserSerializer(serializers.ModelSerializer)\r\n     class Meta:\r\n-        model = \n\\ No newline at end of file\n+        model = User\r\n+        fil\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712131733531,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,5 +3,5 @@\n \r\n class UserSerializer(serializers.ModelSerializer)\r\n     class Meta:\r\n         model = User\r\n-        fil\n\\ No newline at end of file\n+        fields = [\"id\"]\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712131739211,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,7 @@\n+from django.contrib.auth.models import User\r\n+from rest_framework import serializers\r\n+\r\n+class UserSerializer(serializers.ModelSerializer)\r\n+    class Meta:\r\n+        model = User\r\n+        fields = [\"id\", \"username\", ]\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712131747201,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,12 +3,6 @@\n \r\n class UserSerializer(serializers.ModelSerializer)\r\n     class Meta:\r\n         model = User\r\n-        fields = [\"id\", \"username\", ]\n-from django.contrib.auth.models import User\r\n-from rest_framework import serializers\r\n-\r\n-class UserSerializer(serializers.ModelSerializer)\r\n-    class Meta:\r\n-        model = User\r\n-        fields = [\"id\"]\n\\ No newline at end of file\n+        fields = [\"id\", \"username\", \"password\"]\r\n+        ex\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712131752931,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,5 +4,5 @@\n class UserSerializer(serializers.ModelSerializer)\r\n     class Meta:\r\n         model = User\r\n         fields = [\"id\", \"username\", \"password\"]\r\n-        ex\n\\ No newline at end of file\n+        extra_kwa\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712131758285,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,5 +4,5 @@\n class UserSerializer(serializers.ModelSerializer)\r\n     class Meta:\r\n         model = User\r\n         fields = [\"id\", \"username\", \"password\"]\r\n-        extra_kwa\n\\ No newline at end of file\n+        extra_kwargs = {}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712131767724,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,5 +4,5 @@\n class UserSerializer(serializers.ModelSerializer)\r\n     class Meta:\r\n         model = User\r\n         fields = [\"id\", \"username\", \"password\"]\r\n-        extra_kwargs = {}\n\\ No newline at end of file\n+        extra_kwargs = {\"password\":}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712131775256,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,8 @@\n+from django.contrib.auth.models import User\r\n+from rest_framework import serializers\r\n+\r\n+class UserSerializer(serializers.ModelSerializer)\r\n+    class Meta:\r\n+        model = User\r\n+        fields = [\"id\", \"username\", \"password\"]\r\n+        extra_kwargs = {\"password\": {\"write\"}}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712131783511,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,13 +4,5 @@\n class UserSerializer(serializers.ModelSerializer)\r\n     class Meta:\r\n         model = User\r\n         fields = [\"id\", \"username\", \"password\"]\r\n-        extra_kwargs = {\"password\": {\"write\"}}\n-from django.contrib.auth.models import User\r\n-from rest_framework import serializers\r\n-\r\n-class UserSerializer(serializers.ModelSerializer)\r\n-    class Meta:\r\n-        model = User\r\n-        fields = [\"id\", \"username\", \"password\"]\r\n-        extra_kwargs = {\"password\":}\n\\ No newline at end of file\n+        extra_kwargs = {\"password\": {\"write_only\": True}}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712131790278,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,5 +4,6 @@\n class UserSerializer(serializers.ModelSerializer)\r\n     class Meta:\r\n         model = User\r\n         fields = [\"id\", \"username\", \"password\"]\r\n-        extra_kwargs = {\"password\": {\"write_only\": True}}\n\\ No newline at end of file\n+        extra_kwargs = {\"password\": {\"write_only\": True}}\r\n+    \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712131795433,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,5 +5,6 @@\n     class Meta:\r\n         model = User\r\n         fields = [\"id\", \"username\", \"password\"]\r\n         extra_kwargs = {\"password\": {\"write_only\": True}}\r\n-    \n\\ No newline at end of file\n+    \r\n+    def create\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712131801333,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,5 +6,5 @@\n         model = User\r\n         fields = [\"id\", \"username\", \"password\"]\r\n         extra_kwargs = {\"password\": {\"write_only\": True}}\r\n     \r\n-    def create\n\\ No newline at end of file\n+    def create(self, validation)\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712131807635,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,5 +6,5 @@\n         model = User\r\n         fields = [\"id\", \"username\", \"password\"]\r\n         extra_kwargs = {\"password\": {\"write_only\": True}}\r\n     \r\n-    def create(self, validation)\n\\ No newline at end of file\n+    def create(self, validated_)\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712131813179,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,10 @@\n+from django.contrib.auth.models import User\r\n+from rest_framework import serializers\r\n+\r\n+class UserSerializer(serializers.ModelSerializer)\r\n+    class Meta:\r\n+        model = User\r\n+        fields = [\"id\", \"username\", \"password\"]\r\n+        extra_kwargs = {\"password\": {\"write_only\": True}}\r\n+    \r\n+    def create(self, validated_data)\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712131818866,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,15 +6,6 @@\n         model = User\r\n         fields = [\"id\", \"username\", \"password\"]\r\n         extra_kwargs = {\"password\": {\"write_only\": True}}\r\n     \r\n-    def create(self, validated_data)\n-from django.contrib.auth.models import User\r\n-from rest_framework import serializers\r\n-\r\n-class UserSerializer(serializers.ModelSerializer)\r\n-    class Meta:\r\n-        model = User\r\n-        fields = [\"id\", \"username\", \"password\"]\r\n-        extra_kwargs = {\"password\": {\"write_only\": True}}\r\n-    \r\n-    def create(self, validated_)\n\\ No newline at end of file\n+    def create(self, validated_data):\r\n+        user\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712131825134,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,5 +7,5 @@\n         fields = [\"id\", \"username\", \"password\"]\r\n         extra_kwargs = {\"password\": {\"write_only\": True}}\r\n     \r\n     def create(self, validated_data):\r\n-        user\n\\ No newline at end of file\n+        user = User.ob\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712131830383,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,5 +7,5 @@\n         fields = [\"id\", \"username\", \"password\"]\r\n         extra_kwargs = {\"password\": {\"write_only\": True}}\r\n     \r\n     def create(self, validated_data):\r\n-        user = User.ob\n\\ No newline at end of file\n+        user = User.objects.create\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712131836172,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,5 +7,5 @@\n         fields = [\"id\", \"username\", \"password\"]\r\n         extra_kwargs = {\"password\": {\"write_only\": True}}\r\n     \r\n     def create(self, validated_data):\r\n-        user = User.objects.create\n\\ No newline at end of file\n+        user = User.objects.create_user(**)\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712131849792,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,5 +7,5 @@\n         fields = [\"id\", \"username\", \"password\"]\r\n         extra_kwargs = {\"password\": {\"write_only\": True}}\r\n     \r\n     def create(self, validated_data):\r\n-        user = User.objects.create_user(**)\n\\ No newline at end of file\n+        user = User.objects.create_user(**validated_data)\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712131879437,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,5 +7,6 @@\n         fields = [\"id\", \"username\", \"password\"]\r\n         extra_kwargs = {\"password\": {\"write_only\": True}}\r\n     \r\n     def create(self, validated_data):\r\n-        user = User.objects.create_user(**validated_data)\n\\ No newline at end of file\n+        user = User.objects.create_user(**validated_data)\r\n+        ret\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712133891055,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,12 +1,12 @@\n from django.contrib.auth.models import User\r\n from rest_framework import serializers\r\n \r\n-class UserSerializer(serializers.ModelSerializer)\r\n+class UserSerializer(serializers.ModelSerializer):\r\n     class Meta:\r\n         model = User\r\n         fields = [\"id\", \"username\", \"password\"]\r\n         extra_kwargs = {\"password\": {\"write_only\": True}}\r\n     \r\n     def create(self, validated_data):\r\n         user = User.objects.create_user(**validated_data)\r\n\\ No newline at end of file\n-        ret\n+        return user\r\n"
+                },
+                {
+                    "date": 1712145793042,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,13 @@\n+from django.contrib.auth.models import User\r\n+from rest_framework import serializers\r\n+\r\n+\r\n+class UserSerializer(serializers.ModelSerializer):\r\n+    class Meta:\r\n+        model = User\r\n+        fields = [\"id\", \"username\", \"password\"]\r\n+        extra_kwargs = {\"password\": {\"write_only\": True}}\r\n+    \r\n+    def create(self, validated_data):\r\n+        user = User.objects.create_user(**validated_data)\r\n+        return user\r\n"
+                },
+                {
+                    "date": 1712145799928,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n from django.contrib.auth.models import User\r\n from rest_framework import serializers\r\n+from .models\r\n \r\n-\r\n class UserSerializer(serializers.ModelSerializer):\r\n     class Meta:\r\n         model = User\r\n         fields = [\"id\", \"username\", \"password\"]\r\n@@ -10,16 +10,4 @@\n     \r\n     def create(self, validated_data):\r\n         user = User.objects.create_user(**validated_data)\r\n         return user\r\n-from django.contrib.auth.models import User\r\n-from rest_framework import serializers\r\n-\r\n-class UserSerializer(serializers.ModelSerializer):\r\n-    class Meta:\r\n-        model = User\r\n-        fields = [\"id\", \"username\", \"password\"]\r\n-        extra_kwargs = {\"password\": {\"write_only\": True}}\r\n-    \r\n-    def create(self, validated_data):\r\n-        user = User.objects.create_user(**validated_data)\r\n-        return user\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712145807717,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n from django.contrib.auth.models import User\r\n from rest_framework import serializers\r\n-from .models\r\n+from .models import No\r\n \r\n class UserSerializer(serializers.ModelSerializer):\r\n     class Meta:\r\n         model = User\r\n"
+                },
+                {
+                    "date": 1712145814165,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n from django.contrib.auth.models import User\r\n from rest_framework import serializers\r\n-from .models import No\r\n+from .models import Note\r\n \r\n class UserSerializer(serializers.ModelSerializer):\r\n     class Meta:\r\n         model = User\r\n@@ -10,4 +10,6 @@\n     \r\n     def create(self, validated_data):\r\n         user = User.objects.create_user(**validated_data)\r\n         return user\r\n+\r\n+class \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712145823580,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,5 +11,5 @@\n     def create(self, validated_data):\r\n         user = User.objects.create_user(**validated_data)\r\n         return user\r\n \r\n-class \n\\ No newline at end of file\n+class NoteSeria\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712145829162,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,5 +11,5 @@\n     def create(self, validated_data):\r\n         user = User.objects.create_user(**validated_data)\r\n         return user\r\n \r\n-class NoteSeria\n\\ No newline at end of file\n+class NoteSerializer(serializers)\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712145834390,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,15 @@\n+from django.contrib.auth.models import User\r\n+from rest_framework import serializers\r\n+from .models import Note\r\n+\r\n+class UserSerializer(serializers.ModelSerializer):\r\n+    class Meta:\r\n+        model = User\r\n+        fields = [\"id\", \"username\", \"password\"]\r\n+        extra_kwargs = {\"password\": {\"write_only\": True}}\r\n+    \r\n+    def create(self, validated_data):\r\n+        user = User.objects.create_user(**validated_data)\r\n+        return user\r\n+\r\n+class NoteSerializer(serializers.)\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712145842605,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,20 +11,5 @@\n     def create(self, validated_data):\r\n         user = User.objects.create_user(**validated_data)\r\n         return user\r\n \r\n-class NoteSerializer(serializers.)\n-from django.contrib.auth.models import User\r\n-from rest_framework import serializers\r\n-from .models import Note\r\n-\r\n-class UserSerializer(serializers.ModelSerializer):\r\n-    class Meta:\r\n-        model = User\r\n-        fields = [\"id\", \"username\", \"password\"]\r\n-        extra_kwargs = {\"password\": {\"write_only\": True}}\r\n-    \r\n-    def create(self, validated_data):\r\n-        user = User.objects.create_user(**validated_data)\r\n-        return user\r\n-\r\n-class NoteSerializer(serializers)\n\\ No newline at end of file\n+class NoteSerializer(serializers.ModelSerializer)\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712145849754,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,5 +11,6 @@\n     def create(self, validated_data):\r\n         user = User.objects.create_user(**validated_data)\r\n         return user\r\n \r\n-class NoteSerializer(serializers.ModelSerializer)\n\\ No newline at end of file\n+class NoteSerializer(serializers.ModelSerializer):\r\n+    class \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712145858094,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,17 @@\n+from django.contrib.auth.models import User\r\n+from rest_framework import serializers\r\n+from .models import Note\r\n+\r\n+class UserSerializer(serializers.ModelSerializer):\r\n+    class Meta:\r\n+        model = User\r\n+        fields = [\"id\", \"username\", \"password\"]\r\n+        extra_kwargs = {\"password\": {\"write_only\": True}}\r\n+    \r\n+    def create(self, validated_data):\r\n+        user = User.objects.create_user(**validated_data)\r\n+        return user\r\n+\r\n+class NoteSerializer(serializers.ModelSerializer):\r\n+    class Note:\r\n+        model = \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712145865694,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,21 +13,6 @@\n         return user\r\n \r\n class NoteSerializer(serializers.ModelSerializer):\r\n     class Note:\r\n-        model = \n-from django.contrib.auth.models import User\r\n-from rest_framework import serializers\r\n-from .models import Note\r\n-\r\n-class UserSerializer(serializers.ModelSerializer):\r\n-    class Meta:\r\n-        model = User\r\n-        fields = [\"id\", \"username\", \"password\"]\r\n-        extra_kwargs = {\"password\": {\"write_only\": True}}\r\n-    \r\n-    def create(self, validated_data):\r\n-        user = User.objects.create_user(**validated_data)\r\n-        return user\r\n-\r\n-class NoteSerializer(serializers.ModelSerializer):\r\n-    class \n\\ No newline at end of file\n+        model = Note\r\n+        \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712145871581,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,18 @@\n+from django.contrib.auth.models import User\r\n+from rest_framework import serializers\r\n+from .models import Note\r\n+\r\n+class UserSerializer(serializers.ModelSerializer):\r\n+    class Meta:\r\n+        model = User\r\n+        fields = [\"id\", \"username\", \"password\"]\r\n+        extra_kwargs = {\"password\": {\"write_only\": True}}\r\n+    \r\n+    def create(self, validated_data):\r\n+        user = User.objects.create_user(**validated_data)\r\n+        return user\r\n+\r\n+class NoteSerializer(serializers.ModelSerializer):\r\n+    class Note:\r\n+        model = Note\r\n+        fieled = \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712145878691,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,23 +14,5 @@\n \r\n class NoteSerializer(serializers.ModelSerializer):\r\n     class Note:\r\n         model = Note\r\n-        fieled = \n-from django.contrib.auth.models import User\r\n-from rest_framework import serializers\r\n-from .models import Note\r\n-\r\n-class UserSerializer(serializers.ModelSerializer):\r\n-    class Meta:\r\n-        model = User\r\n-        fields = [\"id\", \"username\", \"password\"]\r\n-        extra_kwargs = {\"password\": {\"write_only\": True}}\r\n-    \r\n-    def create(self, validated_data):\r\n-        user = User.objects.create_user(**validated_data)\r\n-        return user\r\n-\r\n-class NoteSerializer(serializers.ModelSerializer):\r\n-    class Note:\r\n-        model = Note\r\n-        \n\\ No newline at end of file\n+        fields = \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712145883968,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,5 +14,5 @@\n \r\n class NoteSerializer(serializers.ModelSerializer):\r\n     class Note:\r\n         model = Note\r\n-        fields = \n\\ No newline at end of file\n+        fields = [\"id\", ]\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712145900554,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,5 +14,5 @@\n \r\n class NoteSerializer(serializers.ModelSerializer):\r\n     class Note:\r\n         model = Note\r\n-        fields = [\"id\", ]\n\\ No newline at end of file\n+        fields = [\"id\",\"\"]\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712145907448,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,18 @@\n+from django.contrib.auth.models import User\r\n+from rest_framework import serializers\r\n+from .models import Note\r\n+\r\n+class UserSerializer(serializers.ModelSerializer):\r\n+    class Meta:\r\n+        model = User\r\n+        fields = [\"id\", \"username\", \"password\"]\r\n+        extra_kwargs = {\"password\": {\"write_only\": True}}\r\n+    \r\n+    def create(self, validated_data):\r\n+        user = User.objects.create_user(**validated_data)\r\n+        return user\r\n+\r\n+class NoteSerializer(serializers.ModelSerializer):\r\n+    class Note:\r\n+        model = Note\r\n+        fields = [\"id\",\"title\",\"\"]\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712145913908,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,23 +14,5 @@\n \r\n class NoteSerializer(serializers.ModelSerializer):\r\n     class Note:\r\n         model = Note\r\n-        fields = [\"id\",\"title\",\"\"]\n-from django.contrib.auth.models import User\r\n-from rest_framework import serializers\r\n-from .models import Note\r\n-\r\n-class UserSerializer(serializers.ModelSerializer):\r\n-    class Meta:\r\n-        model = User\r\n-        fields = [\"id\", \"username\", \"password\"]\r\n-        extra_kwargs = {\"password\": {\"write_only\": True}}\r\n-    \r\n-    def create(self, validated_data):\r\n-        user = User.objects.create_user(**validated_data)\r\n-        return user\r\n-\r\n-class NoteSerializer(serializers.ModelSerializer):\r\n-    class Note:\r\n-        model = Note\r\n-        fields = [\"id\",\"\"]\n\\ No newline at end of file\n+        fields = [\"id\",\"title\",\"content\",\"\"]\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712145921024,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,18 @@\n+from django.contrib.auth.models import User\r\n+from rest_framework import serializers\r\n+from .models import Note\r\n+\r\n+class UserSerializer(serializers.ModelSerializer):\r\n+    class Meta:\r\n+        model = User\r\n+        fields = [\"id\", \"username\", \"password\"]\r\n+        extra_kwargs = {\"password\": {\"write_only\": True}}\r\n+    \r\n+    def create(self, validated_data):\r\n+        user = User.objects.create_user(**validated_data)\r\n+        return user\r\n+\r\n+class NoteSerializer(serializers.ModelSerializer):\r\n+    class Note:\r\n+        model = Note\r\n+        fields = [\"id\",\"title\",\"content\",\"created_at\",\"\"]\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712145927770,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,23 +14,6 @@\n \r\n class NoteSerializer(serializers.ModelSerializer):\r\n     class Note:\r\n         model = Note\r\n-        fields = [\"id\",\"title\",\"content\",\"created_at\",\"\"]\n-from django.contrib.auth.models import User\r\n-from rest_framework import serializers\r\n-from .models import Note\r\n-\r\n-class UserSerializer(serializers.ModelSerializer):\r\n-    class Meta:\r\n-        model = User\r\n-        fields = [\"id\", \"username\", \"password\"]\r\n-        extra_kwargs = {\"password\": {\"write_only\": True}}\r\n-    \r\n-    def create(self, validated_data):\r\n-        user = User.objects.create_user(**validated_data)\r\n-        return user\r\n-\r\n-class NoteSerializer(serializers.ModelSerializer):\r\n-    class Note:\r\n-        model = Note\r\n-        fields = [\"id\",\"title\",\"content\",\"\"]\n\\ No newline at end of file\n+        fields = [\"id\",\"title\",\"content\",\"created_at\",\"author\"]\r\n+        ex\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712145933302,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,5 +15,5 @@\n class NoteSerializer(serializers.ModelSerializer):\r\n     class Note:\r\n         model = Note\r\n         fields = [\"id\",\"title\",\"content\",\"created_at\",\"author\"]\r\n-        ex\n\\ No newline at end of file\n+        extra_k\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712145938912,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,5 +15,5 @@\n class NoteSerializer(serializers.ModelSerializer):\r\n     class Note:\r\n         model = Note\r\n         fields = [\"id\",\"title\",\"content\",\"created_at\",\"author\"]\r\n-        extra_k\n\\ No newline at end of file\n+        extra_kwargs = {}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712145945867,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,5 +15,5 @@\n class NoteSerializer(serializers.ModelSerializer):\r\n     class Note:\r\n         model = Note\r\n         fields = [\"id\",\"title\",\"content\",\"created_at\",\"author\"]\r\n-        extra_kwargs = {}\n\\ No newline at end of file\n+        extra_kwargs = {\"author\"}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712145952342,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,5 +15,5 @@\n class NoteSerializer(serializers.ModelSerializer):\r\n     class Note:\r\n         model = Note\r\n         fields = [\"id\",\"title\",\"content\",\"created_at\",\"author\"]\r\n-        extra_kwargs = {\"author\"}\n\\ No newline at end of file\n+        extra_kwargs = {\"author\":{\"\"}}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712145958003,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,19 @@\n+from django.contrib.auth.models import User\r\n+from rest_framework import serializers\r\n+from .models import Note\r\n+\r\n+class UserSerializer(serializers.ModelSerializer):\r\n+    class Meta:\r\n+        model = User\r\n+        fields = [\"id\", \"username\", \"password\"]\r\n+        extra_kwargs = {\"password\": {\"write_only\": True}}\r\n+    \r\n+    def create(self, validated_data):\r\n+        user = User.objects.create_user(**validated_data)\r\n+        return user\r\n+\r\n+class NoteSerializer(serializers.ModelSerializer):\r\n+    class Note:\r\n+        model = Note\r\n+        fields = [\"id\",\"title\",\"content\",\"created_at\",\"author\"]\r\n+        extra_kwargs = {\"author\":{\"read_only\"}}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712145967119,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,24 +15,7 @@\n class NoteSerializer(serializers.ModelSerializer):\r\n     class Note:\r\n         model = Note\r\n         fields = [\"id\",\"title\",\"content\",\"created_at\",\"author\"]\r\n-        extra_kwargs = {\"author\":{\"read_only\"}}\n-from django.contrib.auth.models import User\r\n-from rest_framework import serializers\r\n-from .models import Note\r\n+        extra_kwargs = {\"author\":{\"read_only\":True}}\r\n \r\n-class UserSerializer(serializers.ModelSerializer):\r\n-    class Meta:\r\n-        model = User\r\n-        fields = [\"id\", \"username\", \"password\"]\r\n-        extra_kwargs = {\"password\": {\"write_only\": True}}\r\n-    \r\n-    def create(self, validated_data):\r\n-        user = User.objects.create_user(**validated_data)\r\n-        return user\r\n-\r\n-class NoteSerializer(serializers.ModelSerializer):\r\n-    class Note:\r\n-        model = Note\r\n-        fields = [\"id\",\"title\",\"content\",\"created_at\",\"author\"]\r\n\\ No newline at end of file\n-        extra_kwargs = {\"author\":{\"\"}}\n+        \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712145979248,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,5 +17,6 @@\n         model = Note\r\n         fields = [\"id\",\"title\",\"content\",\"created_at\",\"author\"]\r\n         extra_kwargs = {\"author\":{\"read_only\":True}}\r\n \r\n-        \n\\ No newline at end of file\n+    def create(self, validated_data):\r\n+        return\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712146012784,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,7 +16,4 @@\n     class Note:\r\n         model = Note\r\n         fields = [\"id\",\"title\",\"content\",\"created_at\",\"author\"]\r\n         extra_kwargs = {\"author\":{\"read_only\":True}}\r\n-\r\n-    def create(self, validated_data):\r\n-        return\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712313760979,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,8 +12,8 @@\n         user = User.objects.create_user(**validated_data)\r\n         return user\r\n \r\n class NoteSerializer(serializers.ModelSerializer):\r\n-    class Note:\r\n+    class Meta:\r\n         model = Note\r\n         fields = [\"id\",\"title\",\"content\",\"created_at\",\"author\"]\r\n-        extra_kwargs = {\"author\":{\"read_only\":True}}\r\n+        extra_kwargs = {\"author\":{\"read_only\":True}}\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1712130947316,
+            "name": "Commit-0",
+            "content": "form "
+        }
+    ]
+}

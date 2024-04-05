@@ -1,0 +1,74 @@
+{
+    "sourceFile": "frontend/src/pages/Register.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 14,
+            "patches": [
+                {
+                    "date": 1712221259909,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1712221268801,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-function Home() {\r\n-    return <div>Home</div>\r\n+function Register() {\r\n+    return <div>Register</div>\r\n }\r\n \r\n export default Home\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712221274255,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n function Register() {\r\n     return <div>Register</div>\r\n }\r\n \r\n-export default Home\n\\ No newline at end of file\n+export default Register\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712236633995,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,8 @@\n+\r\n+\r\n+\r\n+function Register() {\r\n+    return <div>Register</div>\r\n+}\r\n+\r\n+export default Register\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712236640710,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,13 +1,8 @@\n+import Form from \"../components/Form\"\r\n \r\n \r\n-\r\n function Register() {\r\n     return <div>Register</div>\r\n }\r\n \r\n-export default Register\n-function Register() {\r\n-    return <div>Register</div>\r\n-}\r\n-\r\n export default Register\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712236654798,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n import Form from \"../components/Form\"\r\n \r\n \r\n function Register() {\r\n-    return <div>Register</div>\r\n+    return \r\n }\r\n \r\n export default Register\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712236660926,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n import Form from \"../components/Form\"\r\n \r\n \r\n function Register() {\r\n-    return \r\n+    return <Form/>\r\n }\r\n \r\n export default Register\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712236667240,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n import Form from \"../components/Form\"\r\n \r\n \r\n function Register() {\r\n-    return <Form/>\r\n+    return <Form route={}/>\r\n }\r\n \r\n export default Register\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712236673025,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n import Form from \"../components/Form\"\r\n \r\n \r\n function Register() {\r\n-    return <Form route={}/>\r\n+    return <Form route=\"\"/>\r\n }\r\n \r\n export default Register\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712236679759,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,8 @@\n+import Form from \"../components/Form\"\r\n+\r\n+\r\n+function Register() {\r\n+    return <Form route=\"./api/user\"/>\r\n+}\r\n+\r\n+export default Register\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712236688954,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,8 @@\n+import Form from \"../components/Form\"\r\n+\r\n+\r\n+function Register() {\r\n+    return <Form route=\"./api/user/register\" method={}/>\r\n+}\r\n+\r\n+export default Register\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712236694819,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,8 @@\n+import Form from \"../components/Form\"\r\n+\r\n+\r\n+function Register() {\r\n+    return <Form route=\"./api/user/register\" method=\"refresh\"/>\r\n+}\r\n+\r\n+export default Register\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712236700757,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,8 @@\n+import Form from \"../components/Form\"\r\n+\r\n+\r\n+function Register() {\r\n+    return <Form route=\"./api/user/register\" method=\"register\"/>\r\n+}\r\n+\r\n+export default Register\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712238008243,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,40 +1,8 @@\n import Form from \"../components/Form\"\r\n \r\n \r\n function Register() {\r\n-    return <Form route=\"./api/user/register\" method=\"register\"/>\r\n+    return <Form route=\"/api/user/register\" method=\"register\"/>\r\n }\r\n \r\n-export default Register\n-import Form from \"../components/Form\"\r\n-\r\n-\r\n-function Register() {\r\n-    return <Form route=\"./api/user/register\" method=\"refresh\"/>\r\n-}\r\n-\r\n-export default Register\n-import Form from \"../components/Form\"\r\n-\r\n-\r\n-function Register() {\r\n-    return <Form route=\"./api/user/register\" method={}/>\r\n-}\r\n-\r\n-export default Register\n-import Form from \"../components/Form\"\r\n-\r\n-\r\n-function Register() {\r\n-    return <Form route=\"./api/user\"/>\r\n-}\r\n-\r\n-export default Register\n-import Form from \"../components/Form\"\r\n-\r\n-\r\n-function Register() {\r\n-    return <Form route=\"\"/>\r\n-}\r\n-\r\n export default Register\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712238314238,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,8 @@\n+import Form from \"../components/Form\"\r\n+\r\n+\r\n+function Register() {\r\n+    return <Form route=\"/api/user/register/\" method=\"register\"/>\r\n+}\r\n+\r\n+export default Register\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1712221259909,
+            "name": "Commit-0",
+            "content": "function Home() {\r\n    return <div>Home</div>\r\n}\r\n\r\nexport default Home"
+        }
+    ]
+}

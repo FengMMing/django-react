@@ -1,0 +1,62 @@
+{
+    "sourceFile": "backend/.choreo/.endpoints.yaml",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 11,
+            "patches": [
+                {
+                    "date": 1712318278029,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1712318286055,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,3 @@\n-version:0.1\r\n+version: 0.1\r\n+\r\n+endpoints\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712318292486,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,4 @@\n version: 0.1\r\n \r\n-endpoints\n\\ No newline at end of file\n+endpoints:\r\n+  -name\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712318300684,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,4 @@\n+version: 0.1\r\n+\r\n+endpoints:\r\n+  -name: \"REST-\"\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712318308065,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,5 @@\n version: 0.1\r\n \r\n endpoints:\r\n-  -name: \"REST-\"\n-version: 0.1\r\n-\r\n-endpoints:\r\n-  -name\n\\ No newline at end of file\n+  -name: \"REST API\"\r\n+  p\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712318313395,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n version: 0.1\r\n \r\n endpoints:\r\n   -name: \"REST API\"\r\n-  p\n\\ No newline at end of file\n+   post: \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712318320839,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,6 @@\n version: 0.1\r\n \r\n endpoints:\r\n   -name: \"REST API\"\r\n-   post: \n\\ No newline at end of file\n+   post: 8000\r\n+   type\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712318326846,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,5 +2,5 @@\n \r\n endpoints:\r\n   -name: \"REST API\"\r\n    post: 8000\r\n-   type\n\\ No newline at end of file\n+   type:REST\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712318333596,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,5 +2,6 @@\n \r\n endpoints:\r\n   -name: \"REST API\"\r\n    post: 8000\r\n-   type:REST\n\\ No newline at end of file\n+   type: REST\r\n+   net\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712318342713,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,5 +3,5 @@\n endpoints:\r\n   -name: \"REST API\"\r\n    post: 8000\r\n    type: REST\r\n-   net\n\\ No newline at end of file\n+   networkVisibo\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712318352097,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,5 +3,5 @@\n endpoints:\r\n   -name: \"REST API\"\r\n    post: 8000\r\n    type: REST\r\n-   networkVisibo\n\\ No newline at end of file\n+   networkVisibility: \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712318357273,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,5 +3,6 @@\n endpoints:\r\n   -name: \"REST API\"\r\n    post: 8000\r\n    type: REST\r\n-   networkVisibility: \n\\ No newline at end of file\n+   networkVisibility: public\r\n+   \n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1712318278029,
+            "name": "Commit-0",
+            "content": "version:0.1\r\n"
+        }
+    ]
+}

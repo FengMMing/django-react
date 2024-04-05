@@ -1,0 +1,42 @@
+{
+    "sourceFile": "frontend/src/constants.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 6,
+            "patches": [
+                {
+                    "date": 1712148202051,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1712148209431,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-cons\n\\ No newline at end of file\n+export const\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712148216099,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-export const\n\\ No newline at end of file\n+export const ACCESS\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712148223744,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-export const ACCESS\n\\ No newline at end of file\n+export const ACCESS_TOKEN = \"access\"\r\n"
+                },
+                {
+                    "date": 1712148229208,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,2 @@\n export const ACCESS_TOKEN = \"access\"\r\n+export \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712148240741,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,2 @@\n export const ACCESS_TOKEN = \"access\"\r\n-export \n\\ No newline at end of file\n+export const REFRESH_\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712148247002,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,2 @@\n export const ACCESS_TOKEN = \"access\"\r\n-export const REFRESH_\n\\ No newline at end of file\n+export const REFRESH_TOKEN = \"\"\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1712148202051,
+            "name": "Commit-0",
+            "content": "cons"
+        }
+    ]
+}

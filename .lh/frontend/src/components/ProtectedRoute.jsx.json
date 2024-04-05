@@ -1,0 +1,294 @@
+{
+    "sourceFile": "frontend/src/components/ProtectedRoute.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 69,
+            "patches": [
+                {
+                    "date": 1712149765345,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1712149775102,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-import\n\\ No newline at end of file\n+import {Na}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712149783114,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-import {Na}\n\\ No newline at end of file\n+import {Navigate} from\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712149788454,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-import {Navigate} from\n\\ No newline at end of file\n+import {Navigate} from \"react-router-dom\"\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712149798923,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,2 @@\n-import {Navigate} from \"react-router-dom\"\n\\ No newline at end of file\n+import {Navigate} from \"react-router-dom\"\r\n+import {jwtdecoder} from \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712149806093,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,3 @@\n import {Navigate} from \"react-router-dom\"\r\n-import {jwtdecoder} from \n\\ No newline at end of file\n+import {jwtdecoder} from \"jwt-decode\"\r\n+import api \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712149814011,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n import {Navigate} from \"react-router-dom\"\r\n import {jwtdecoder} from \"jwt-decode\"\r\n-import api \n\\ No newline at end of file\n+import api from \"../api\"\r\n"
+                },
+                {
+                    "date": 1712149829467,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,4 @@\n+import {Navigate} from \"react-router-dom\"\r\n+import {jwtdecoder} from \"jwt-decode\"\r\n+import api from \"../api\"\r\n+import {REF}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712149836878,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,4 @@\n import {Navigate} from \"react-router-dom\"\r\n import {jwtdecoder} from \"jwt-decode\"\r\n import api from \"../api\"\r\n-import {REF}\n-import {Navigate} from \"react-router-dom\"\r\n-import {jwtdecoder} from \"jwt-decode\"\r\n-import api from \"../api\"\n\\ No newline at end of file\n+import {REFRE}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712149843713,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n import {Navigate} from \"react-router-dom\"\r\n import {jwtdecoder} from \"jwt-decode\"\r\n import api from \"../api\"\r\n-import {REFRE}\n\\ No newline at end of file\n+import { REFRESH_TOKEN, ACCESS_TOKEN } from \"../constants\"\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712149851361,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,6 @@\n import {Navigate} from \"react-router-dom\"\r\n import {jwtdecoder} from \"jwt-decode\"\r\n import api from \"../api\"\r\n-import { REFRESH_TOKEN, ACCESS_TOKEN } from \"../constants\"\n\\ No newline at end of file\n+import { REFRESH_TOKEN, ACCESS_TOKEN } from \"../constants\"\r\n+\r\n+function Pro\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712149857090,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,5 +2,5 @@\n import {jwtdecoder} from \"jwt-decode\"\r\n import api from \"../api\"\r\n import { REFRESH_TOKEN, ACCESS_TOKEN } from \"../constants\"\r\n \r\n-function Pro\n\\ No newline at end of file\n+function ProtectedRoute()\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712149863423,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,6 @@\n+import {Navigate} from \"react-router-dom\"\r\n+import {jwtdecoder} from \"jwt-decode\"\r\n+import api from \"../api\"\r\n+import { REFRESH_TOKEN, ACCESS_TOKEN } from \"../constants\"\r\n+\r\n+function ProtectedRoute({chi})\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712149869312,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,11 +2,7 @@\n import {jwtdecoder} from \"jwt-decode\"\r\n import api from \"../api\"\r\n import { REFRESH_TOKEN, ACCESS_TOKEN } from \"../constants\"\r\n \r\n-function ProtectedRoute({chi})\n-import {Navigate} from \"react-router-dom\"\r\n-import {jwtdecoder} from \"jwt-decode\"\r\n-import api from \"../api\"\r\n-import { REFRESH_TOKEN, ACCESS_TOKEN } from \"../constants\"\r\n-\r\n-function ProtectedRoute()\n\\ No newline at end of file\n+function ProtectedRoute({children}){\r\n+    \r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712149909341,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,7 +2,7 @@\n import {jwtdecoder} from \"jwt-decode\"\r\n import api from \"../api\"\r\n import { REFRESH_TOKEN, ACCESS_TOKEN } from \"../constants\"\r\n \r\n-function ProtectedRoute({children}){\r\n-    \r\n+function ProtectedRoute({children}) {\r\n+\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712149934396,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,6 +3,6 @@\n import api from \"../api\"\r\n import { REFRESH_TOKEN, ACCESS_TOKEN } from \"../constants\"\r\n \r\n function ProtectedRoute({children}) {\r\n-\r\n+    const []\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712149944897,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,6 +3,6 @@\n import api from \"../api\"\r\n import { REFRESH_TOKEN, ACCESS_TOKEN } from \"../constants\"\r\n \r\n function ProtectedRoute({children}) {\r\n-    const []\r\n+    const [isAuthorized]\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712149951992,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,6 +3,6 @@\n import api from \"../api\"\r\n import { REFRESH_TOKEN, ACCESS_TOKEN } from \"../constants\"\r\n \r\n function ProtectedRoute({children}) {\r\n-    const [isAuthorized]\r\n+    const [isAuthorized, setIs]\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712149958814,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,8 @@\n+import {Navigate} from \"react-router-dom\"\r\n+import {jwtdecoder} from \"jwt-decode\"\r\n+import api from \"../api\"\r\n+import { REFRESH_TOKEN, ACCESS_TOKEN } from \"../constants\"\r\n+\r\n+function ProtectedRoute({children}) {\r\n+    const [isAuthorized, setIsAuthorized]\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712149976960,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,16 +1,9 @@\n import {Navigate} from \"react-router-dom\"\r\n import {jwtdecoder} from \"jwt-decode\"\r\n import api from \"../api\"\r\n import { REFRESH_TOKEN, ACCESS_TOKEN } from \"../constants\"\r\n+import { useState } from \"react\"\r\n \r\n function ProtectedRoute({children}) {\r\n-    const [isAuthorized, setIsAuthorized]\r\n-}\n-import {Navigate} from \"react-router-dom\"\r\n-import {jwtdecoder} from \"jwt-decode\"\r\n-import api from \"../api\"\r\n-import { REFRESH_TOKEN, ACCESS_TOKEN } from \"../constants\"\r\n-\r\n-function ProtectedRoute({children}) {\r\n-    const [isAuthorized, setIs]\r\n+    const [isAuthorized, setIsAuthorized] = useState\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712149985822,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,6 +4,6 @@\n import { REFRESH_TOKEN, ACCESS_TOKEN } from \"../constants\"\r\n import { useState } from \"react\"\r\n \r\n function ProtectedRoute({children}) {\r\n-    const [isAuthorized, setIsAuthorized] = useState\r\n+    const [isAuthorized, setIsAuthorized] = useState(null)\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712150000887,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,5 +5,6 @@\n import { useState } from \"react\"\r\n \r\n function ProtectedRoute({children}) {\r\n     const [isAuthorized, setIsAuthorized] = useState(null)\r\n+    const \r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712150012244,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,6 +5,6 @@\n import { useState } from \"react\"\r\n \r\n function ProtectedRoute({children}) {\r\n     const [isAuthorized, setIsAuthorized] = useState(null)\r\n-    const \r\n+    const refreshToken = \r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712150022600,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,6 +5,8 @@\n import { useState } from \"react\"\r\n \r\n function ProtectedRoute({children}) {\r\n     const [isAuthorized, setIsAuthorized] = useState(null)\r\n-    const refreshToken = \r\n+    const refreshToken = async()=>{\r\n+        \r\n+    }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712150027813,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,13 @@\n+import {Navigate} from \"react-router-dom\"\r\n+import {jwtdecoder} from \"jwt-decode\"\r\n+import api from \"../api\"\r\n+import { REFRESH_TOKEN, ACCESS_TOKEN } from \"../constants\"\r\n+import { useState } from \"react\"\r\n+\r\n+function ProtectedRoute({children}) {\r\n+    const [isAuthorized, setIsAuthorized] = useState(null)\r\n+    const refreshToken = async()=>{\r\n+\r\n+    }\r\n+    const auth\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712150033557,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,18 +8,6 @@\n     const [isAuthorized, setIsAuthorized] = useState(null)\r\n     const refreshToken = async()=>{\r\n \r\n     }\r\n-    const auth\r\n-}\n-import {Navigate} from \"react-router-dom\"\r\n-import {jwtdecoder} from \"jwt-decode\"\r\n-import api from \"../api\"\r\n-import { REFRESH_TOKEN, ACCESS_TOKEN } from \"../constants\"\r\n-import { useState } from \"react\"\r\n-\r\n-function ProtectedRoute({children}) {\r\n-    const [isAuthorized, setIsAuthorized] = useState(null)\r\n-    const refreshToken = async()=>{\r\n-        \r\n-    }\r\n+    const auth = async\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712150045798,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,6 +8,9 @@\n     const [isAuthorized, setIsAuthorized] = useState(null)\r\n     const refreshToken = async()=>{\r\n \r\n     }\r\n-    const auth = async\r\n+    const auth = async()=>{\r\n+\r\n+    }\r\n+    \r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712150052233,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,6 +11,6 @@\n     }\r\n     const auth = async()=>{\r\n \r\n     }\r\n-    \r\n+    if (isAuthorized)\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712150058068,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,6 +11,8 @@\n     }\r\n     const auth = async()=>{\r\n \r\n     }\r\n-    if (isAuthorized)\r\n+    if (isAuthorized == null){\r\n+        \r\n+    }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712150066049,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,7 +12,7 @@\n     const auth = async()=>{\r\n \r\n     }\r\n     if (isAuthorized == null){\r\n-        \r\n+        return\r\n     }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712150071956,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,7 +12,7 @@\n     const auth = async()=>{\r\n \r\n     }\r\n     if (isAuthorized == null){\r\n-        return\r\n+        return <div></div>\r\n     }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712150077323,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,7 +12,7 @@\n     const auth = async()=>{\r\n \r\n     }\r\n     if (isAuthorized == null){\r\n-        return <div></div>\r\n+        return <div>Loading...</div>\r\n     }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712150096809,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,5 +14,6 @@\n     }\r\n     if (isAuthorized == null){\r\n         return <div>Loading...</div>\r\n     }\r\n+    return\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712150104629,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,6 +14,6 @@\n     }\r\n     if (isAuthorized == null){\r\n         return <div>Loading...</div>\r\n     }\r\n-    return\r\n+    return ?isAuthorized?\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712150110043,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,19 @@\n+import {Navigate} from \"react-router-dom\"\r\n+import {jwtdecoder} from \"jwt-decode\"\r\n+import api from \"../api\"\r\n+import { REFRESH_TOKEN, ACCESS_TOKEN } from \"../constants\"\r\n+import { useState } from \"react\"\r\n+\r\n+function ProtectedRoute({children}) {\r\n+    const [isAuthorized, setIsAuthorized] = useState(null)\r\n+    const refreshToken = async()=>{\r\n+\r\n+    }\r\n+    const auth = async()=>{\r\n+\r\n+    }\r\n+    if (isAuthorized == null){\r\n+        return <div>Loading...</div>\r\n+    }\r\n+    return isAuthorized? children\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712150118525,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,25 +14,6 @@\n     }\r\n     if (isAuthorized == null){\r\n         return <div>Loading...</div>\r\n     }\r\n-    return isAuthorized? children\r\n-}\n-import {Navigate} from \"react-router-dom\"\r\n-import {jwtdecoder} from \"jwt-decode\"\r\n-import api from \"../api\"\r\n-import { REFRESH_TOKEN, ACCESS_TOKEN } from \"../constants\"\r\n-import { useState } from \"react\"\r\n-\r\n-function ProtectedRoute({children}) {\r\n-    const [isAuthorized, setIsAuthorized] = useState(null)\r\n-    const refreshToken = async()=>{\r\n-\r\n-    }\r\n-    const auth = async()=>{\r\n-\r\n-    }\r\n-    if (isAuthorized == null){\r\n-        return <div>Loading...</div>\r\n-    }\r\n-    return ?isAuthorized?\r\n+    return isAuthorized? children : <Navigate></Navigate>\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712150123806,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,19 @@\n+import {Navigate} from \"react-router-dom\"\r\n+import {jwtdecoder} from \"jwt-decode\"\r\n+import api from \"../api\"\r\n+import { REFRESH_TOKEN, ACCESS_TOKEN } from \"../constants\"\r\n+import { useState } from \"react\"\r\n+\r\n+function ProtectedRoute({children}) {\r\n+    const [isAuthorized, setIsAuthorized] = useState(null)\r\n+    const refreshToken = async()=>{\r\n+\r\n+    }\r\n+    const auth = async()=>{\r\n+\r\n+    }\r\n+    if (isAuthorized == null){\r\n+        return <div>Loading...</div>\r\n+    }\r\n+    return isAuthorized? children : <Navigate />\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712150128857,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,25 +14,6 @@\n     }\r\n     if (isAuthorized == null){\r\n         return <div>Loading...</div>\r\n     }\r\n-    return isAuthorized? children : <Navigate />\r\n-}\n-import {Navigate} from \"react-router-dom\"\r\n-import {jwtdecoder} from \"jwt-decode\"\r\n-import api from \"../api\"\r\n-import { REFRESH_TOKEN, ACCESS_TOKEN } from \"../constants\"\r\n-import { useState } from \"react\"\r\n-\r\n-function ProtectedRoute({children}) {\r\n-    const [isAuthorized, setIsAuthorized] = useState(null)\r\n-    const refreshToken = async()=>{\r\n-\r\n-    }\r\n-    const auth = async()=>{\r\n-\r\n-    }\r\n-    if (isAuthorized == null){\r\n-        return <div>Loading...</div>\r\n-    }\r\n-    return isAuthorized? children : <Navigate></Navigate>\r\n+    return isAuthorized? children : <Navigate to=\"/>\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712150138276,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,6 +14,7 @@\n     }\r\n     if (isAuthorized == null){\r\n         return <div>Loading...</div>\r\n     }\r\n-    return isAuthorized? children : <Navigate to=\"/>\r\n-}\n\\ No newline at end of file\n+    return isAuthorized? children : <Navigate to=\"/login\"/>\r\n+}\r\n+\r\n"
+                },
+                {
+                    "date": 1712150149346,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,4 +17,5 @@\n     }\r\n     return isAuthorized? children : <Navigate to=\"/login\"/>\r\n }\r\n \r\n+export\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712150154586,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,5 +17,5 @@\n     }\r\n     return isAuthorized? children : <Navigate to=\"/login\"/>\r\n }\r\n \r\n-export\n\\ No newline at end of file\n+export default Pro\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712150196264,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,8 +8,9 @@\n     const [isAuthorized, setIsAuthorized] = useState(null)\r\n     const refreshToken = async()=>{\r\n \r\n     }\r\n+    \r\n     const auth = async()=>{\r\n \r\n     }\r\n     if (isAuthorized == null){\r\n@@ -17,5 +18,5 @@\n     }\r\n     return isAuthorized? children : <Navigate to=\"/login\"/>\r\n }\r\n \r\n-export default Pro\n\\ No newline at end of file\n+export default ProtectedRoute\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712150202034,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,18 +5,21 @@\n import { useState } from \"react\"\r\n \r\n function ProtectedRoute({children}) {\r\n     const [isAuthorized, setIsAuthorized] = useState(null)\r\n+    \r\n     const refreshToken = async()=>{\r\n \r\n     }\r\n-    \r\n+\r\n     const auth = async()=>{\r\n \r\n     }\r\n+\r\n     if (isAuthorized == null){\r\n         return <div>Loading...</div>\r\n     }\r\n+\r\n     return isAuthorized? children : <Navigate to=\"/login\"/>\r\n }\r\n \r\n export default ProtectedRoute\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712150207207,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,15 +5,15 @@\n import { useState } from \"react\"\r\n \r\n function ProtectedRoute({children}) {\r\n     const [isAuthorized, setIsAuthorized] = useState(null)\r\n-    \r\n+\r\n     const refreshToken = async()=>{\r\n \r\n     }\r\n \r\n     const auth = async()=>{\r\n-\r\n+        const \r\n     }\r\n \r\n     if (isAuthorized == null){\r\n         return <div>Loading...</div>\r\n"
+                },
+                {
+                    "date": 1712150215313,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n \r\n     }\r\n \r\n     const auth = async()=>{\r\n-        const \r\n+        const token = lo\r\n     }\r\n \r\n     if (isAuthorized == null){\r\n         return <div>Loading...</div>\r\n"
+                },
+                {
+                    "date": 1712150222948,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,25 @@\n+import {Navigate} from \"react-router-dom\"\r\n+import {jwtdecoder} from \"jwt-decode\"\r\n+import api from \"../api\"\r\n+import { REFRESH_TOKEN, ACCESS_TOKEN } from \"../constants\"\r\n+import { useState } from \"react\"\r\n+\r\n+function ProtectedRoute({children}) {\r\n+    const [isAuthorized, setIsAuthorized] = useState(null)\r\n+\r\n+    const refreshToken = async()=>{\r\n+\r\n+    }\r\n+\r\n+    const auth = async()=>{\r\n+        const token = localStorage.getItem\r\n+    }\r\n+\r\n+    if (isAuthorized == null){\r\n+        return <div>Loading...</div>\r\n+    }\r\n+\r\n+    return isAuthorized? children : <Navigate to=\"/login\"/>\r\n+}\r\n+\r\n+export default ProtectedRoute\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712150234804,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,10 @@\n \r\n     }\r\n \r\n     const auth = async()=>{\r\n-        const token = localStorage.getItem\r\n+        const token = localStorage.getItem(ACCESS_TOKEN)\r\n+        \r\n     }\r\n \r\n     if (isAuthorized == null){\r\n         return <div>Loading...</div>\r\n@@ -21,30 +22,5 @@\n \r\n     return isAuthorized? children : <Navigate to=\"/login\"/>\r\n }\r\n \r\n-export default ProtectedRoute\n-import {Navigate} from \"react-router-dom\"\r\n-import {jwtdecoder} from \"jwt-decode\"\r\n-import api from \"../api\"\r\n-import { REFRESH_TOKEN, ACCESS_TOKEN } from \"../constants\"\r\n-import { useState } from \"react\"\r\n-\r\n-function ProtectedRoute({children}) {\r\n-    const [isAuthorized, setIsAuthorized] = useState(null)\r\n-\r\n-    const refreshToken = async()=>{\r\n-\r\n-    }\r\n-\r\n-    const auth = async()=>{\r\n-        const token = lo\r\n-    }\r\n-\r\n-    if (isAuthorized == null){\r\n-        return <div>Loading...</div>\r\n-    }\r\n-\r\n-    return isAuthorized? children : <Navigate to=\"/login\"/>\r\n-}\r\n-\r\n export default ProtectedRoute\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712150240352,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n     }\r\n \r\n     const auth = async()=>{\r\n         const token = localStorage.getItem(ACCESS_TOKEN)\r\n-        \r\n+        if(!token)\r\n     }\r\n \r\n     if (isAuthorized == null){\r\n         return <div>Loading...</div>\r\n"
+                },
+                {
+                    "date": 1712150247125,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,11 @@\n     }\r\n \r\n     const auth = async()=>{\r\n         const token = localStorage.getItem(ACCESS_TOKEN)\r\n-        if(!token)\r\n+        if(!token){\r\n+            set\r\n+        }\r\n     }\r\n \r\n     if (isAuthorized == null){\r\n         return <div>Loading...</div>\r\n"
+                },
+                {
+                    "date": 1712150260418,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,10 @@\n \r\n     const auth = async()=>{\r\n         const token = localStorage.getItem(ACCESS_TOKEN)\r\n         if(!token){\r\n-            set\r\n+            setIsAuthorized(false)\r\n+            return\r\n         }\r\n     }\r\n \r\n     if (isAuthorized == null){\r\n"
+                },
+                {
+                    "date": 1712150266322,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,30 @@\n+import {Navigate} from \"react-router-dom\"\r\n+import {jwtdecoder} from \"jwt-decode\"\r\n+import api from \"../api\"\r\n+import { REFRESH_TOKEN, ACCESS_TOKEN } from \"../constants\"\r\n+import { useState } from \"react\"\r\n+\r\n+function ProtectedRoute({children}) {\r\n+    const [isAuthorized, setIsAuthorized] = useState(null)\r\n+\r\n+    const refreshToken = async()=>{\r\n+\r\n+    }\r\n+\r\n+    const auth = async()=>{\r\n+        const token = localStorage.getItem(ACCESS_TOKEN)\r\n+        if(!token){\r\n+            setIsAuthorized(false)\r\n+            return\r\n+        }\r\n+        const \r\n+    }\r\n+\r\n+    if (isAuthorized == null){\r\n+        return <div>Loading...</div>\r\n+    }\r\n+\r\n+    return isAuthorized? children : <Navigate to=\"/login\"/>\r\n+}\r\n+\r\n+export default ProtectedRoute\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712150273988,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,9 @@\n         if(!token){\r\n             setIsAuthorized(false)\r\n             return\r\n         }\r\n-        const \r\n+        const decode = jwtdecoder\r\n     }\r\n \r\n     if (isAuthorized == null){\r\n         return <div>Loading...</div>\r\n@@ -26,34 +26,5 @@\n \r\n     return isAuthorized? children : <Navigate to=\"/login\"/>\r\n }\r\n \r\n-export default ProtectedRoute\n-import {Navigate} from \"react-router-dom\"\r\n-import {jwtdecoder} from \"jwt-decode\"\r\n-import api from \"../api\"\r\n-import { REFRESH_TOKEN, ACCESS_TOKEN } from \"../constants\"\r\n-import { useState } from \"react\"\r\n-\r\n-function ProtectedRoute({children}) {\r\n-    const [isAuthorized, setIsAuthorized] = useState(null)\r\n-\r\n-    const refreshToken = async()=>{\r\n-\r\n-    }\r\n-\r\n-    const auth = async()=>{\r\n-        const token = localStorage.getItem(ACCESS_TOKEN)\r\n-        if(!token){\r\n-            setIsAuthorized(false)\r\n-            return\r\n-        }\r\n-    }\r\n-\r\n-    if (isAuthorized == null){\r\n-        return <div>Loading...</div>\r\n-    }\r\n-\r\n-    return isAuthorized? children : <Navigate to=\"/login\"/>\r\n-}\r\n-\r\n export default ProtectedRoute\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712150279892,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,10 @@\n         if(!token){\r\n             setIsAuthorized(false)\r\n             return\r\n         }\r\n-        const decode = jwtdecoder\r\n+        const decode = jwtdecoder(token)\r\n+        \r\n     }\r\n \r\n     if (isAuthorized == null){\r\n         return <div>Loading...</div>\r\n"
+                },
+                {
+                    "date": 1712150284960,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,31 @@\n+import {Navigate} from \"react-router-dom\"\r\n+import {jwtdecoder} from \"jwt-decode\"\r\n+import api from \"../api\"\r\n+import { REFRESH_TOKEN, ACCESS_TOKEN } from \"../constants\"\r\n+import { useState } from \"react\"\r\n+\r\n+function ProtectedRoute({children}) {\r\n+    const [isAuthorized, setIsAuthorized] = useState(null)\r\n+\r\n+    const refreshToken = async()=>{\r\n+\r\n+    }\r\n+\r\n+    const auth = async()=>{\r\n+        const token = localStorage.getItem(ACCESS_TOKEN)\r\n+        if(!token){\r\n+            setIsAuthorized(false)\r\n+            return\r\n+        }\r\n+        const decode = jwtdecoder(token)\r\n+        const\r\n+    }\r\n+\r\n+    if (isAuthorized == null){\r\n+        return <div>Loading...</div>\r\n+    }\r\n+\r\n+    return isAuthorized? children : <Navigate to=\"/login\"/>\r\n+}\r\n+\r\n+export default ProtectedRoute\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712150290838,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n             setIsAuthorized(false)\r\n             return\r\n         }\r\n         const decode = jwtdecoder(token)\r\n-        const\r\n+        const tokenExp\r\n     }\r\n \r\n     if (isAuthorized == null){\r\n         return <div>Loading...</div>\r\n@@ -27,36 +27,5 @@\n \r\n     return isAuthorized? children : <Navigate to=\"/login\"/>\r\n }\r\n \r\n-export default ProtectedRoute\n-import {Navigate} from \"react-router-dom\"\r\n-import {jwtdecoder} from \"jwt-decode\"\r\n-import api from \"../api\"\r\n-import { REFRESH_TOKEN, ACCESS_TOKEN } from \"../constants\"\r\n-import { useState } from \"react\"\r\n-\r\n-function ProtectedRoute({children}) {\r\n-    const [isAuthorized, setIsAuthorized] = useState(null)\r\n-\r\n-    const refreshToken = async()=>{\r\n-\r\n-    }\r\n-\r\n-    const auth = async()=>{\r\n-        const token = localStorage.getItem(ACCESS_TOKEN)\r\n-        if(!token){\r\n-            setIsAuthorized(false)\r\n-            return\r\n-        }\r\n-        const decode = jwtdecoder(token)\r\n-        \r\n-    }\r\n-\r\n-    if (isAuthorized == null){\r\n-        return <div>Loading...</div>\r\n-    }\r\n-\r\n-    return isAuthorized? children : <Navigate to=\"/login\"/>\r\n-}\r\n-\r\n export default ProtectedRoute\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712150298591,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n             setIsAuthorized(false)\r\n             return\r\n         }\r\n         const decode = jwtdecoder(token)\r\n-        const tokenExp\r\n+        const tokenExpiration = \r\n     }\r\n \r\n     if (isAuthorized == null){\r\n         return <div>Loading...</div>\r\n"
+                },
+                {
+                    "date": 1712150304637,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,31 @@\n+import {Navigate} from \"react-router-dom\"\r\n+import {jwtdecoder} from \"jwt-decode\"\r\n+import api from \"../api\"\r\n+import { REFRESH_TOKEN, ACCESS_TOKEN } from \"../constants\"\r\n+import { useState } from \"react\"\r\n+\r\n+function ProtectedRoute({children}) {\r\n+    const [isAuthorized, setIsAuthorized] = useState(null)\r\n+\r\n+    const refreshToken = async()=>{\r\n+\r\n+    }\r\n+\r\n+    const auth = async()=>{\r\n+        const token = localStorage.getItem(ACCESS_TOKEN)\r\n+        if(!token){\r\n+            setIsAuthorized(false)\r\n+            return\r\n+        }\r\n+        const decode = jwtdecoder(token)\r\n+        const tokenExpiration = decode\r\n+    }\r\n+\r\n+    if (isAuthorized == null){\r\n+        return <div>Loading...</div>\r\n+    }\r\n+\r\n+    return isAuthorized? children : <Navigate to=\"/login\"/>\r\n+}\r\n+\r\n+export default ProtectedRoute\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712150310160,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,32 @@\n+import {Navigate} from \"react-router-dom\"\r\n+import {jwtdecoder} from \"jwt-decode\"\r\n+import api from \"../api\"\r\n+import { REFRESH_TOKEN, ACCESS_TOKEN } from \"../constants\"\r\n+import { useState } from \"react\"\r\n+\r\n+function ProtectedRoute({children}) {\r\n+    const [isAuthorized, setIsAuthorized] = useState(null)\r\n+\r\n+    const refreshToken = async()=>{\r\n+\r\n+    }\r\n+\r\n+    const auth = async()=>{\r\n+        const token = localStorage.getItem(ACCESS_TOKEN)\r\n+        if(!token){\r\n+            setIsAuthorized(false)\r\n+            return\r\n+        }\r\n+        const decode = jwtdecoder(token)\r\n+        const tokenExpiration = decode.exp\r\n+        \r\n+    }\r\n+\r\n+    if (isAuthorized == null){\r\n+        return <div>Loading...</div>\r\n+    }\r\n+\r\n+    return isAuthorized? children : <Navigate to=\"/login\"/>\r\n+}\r\n+\r\n+export default ProtectedRoute\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712150315665,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n             return\r\n         }\r\n         const decode = jwtdecoder(token)\r\n         const tokenExpiration = decode.exp\r\n-        \r\n+        const \r\n     }\r\n \r\n     if (isAuthorized == null){\r\n         return <div>Loading...</div>\r\n@@ -28,67 +28,5 @@\n \r\n     return isAuthorized? children : <Navigate to=\"/login\"/>\r\n }\r\n \r\n-export default ProtectedRoute\n-import {Navigate} from \"react-router-dom\"\r\n-import {jwtdecoder} from \"jwt-decode\"\r\n-import api from \"../api\"\r\n-import { REFRESH_TOKEN, ACCESS_TOKEN } from \"../constants\"\r\n-import { useState } from \"react\"\r\n-\r\n-function ProtectedRoute({children}) {\r\n-    const [isAuthorized, setIsAuthorized] = useState(null)\r\n-\r\n-    const refreshToken = async()=>{\r\n-\r\n-    }\r\n-\r\n-    const auth = async()=>{\r\n-        const token = localStorage.getItem(ACCESS_TOKEN)\r\n-        if(!token){\r\n-            setIsAuthorized(false)\r\n-            return\r\n-        }\r\n-        const decode = jwtdecoder(token)\r\n-        const tokenExpiration = decode\r\n-    }\r\n-\r\n-    if (isAuthorized == null){\r\n-        return <div>Loading...</div>\r\n-    }\r\n-\r\n-    return isAuthorized? children : <Navigate to=\"/login\"/>\r\n-}\r\n-\r\n-export default ProtectedRoute\n-import {Navigate} from \"react-router-dom\"\r\n-import {jwtdecoder} from \"jwt-decode\"\r\n-import api from \"../api\"\r\n-import { REFRESH_TOKEN, ACCESS_TOKEN } from \"../constants\"\r\n-import { useState } from \"react\"\r\n-\r\n-function ProtectedRoute({children}) {\r\n-    const [isAuthorized, setIsAuthorized] = useState(null)\r\n-\r\n-    const refreshToken = async()=>{\r\n-\r\n-    }\r\n-\r\n-    const auth = async()=>{\r\n-        const token = localStorage.getItem(ACCESS_TOKEN)\r\n-        if(!token){\r\n-            setIsAuthorized(false)\r\n-            return\r\n-        }\r\n-        const decode = jwtdecoder(token)\r\n-        const tokenExpiration = \r\n-    }\r\n-\r\n-    if (isAuthorized == null){\r\n-        return <div>Loading...</div>\r\n-    }\r\n-\r\n-    return isAuthorized? children : <Navigate to=\"/login\"/>\r\n-}\r\n-\r\n export default ProtectedRoute\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712150321160,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n             return\r\n         }\r\n         const decode = jwtdecoder(token)\r\n         const tokenExpiration = decode.exp\r\n-        const \r\n+        const now = Da\r\n     }\r\n \r\n     if (isAuthorized == null){\r\n         return <div>Loading...</div>\r\n"
+                },
+                {
+                    "date": 1712150326463,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n             return\r\n         }\r\n         const decode = jwtdecoder(token)\r\n         const tokenExpiration = decode.exp\r\n-        const now = Da\r\n+        const now = Date.now()\r\n     }\r\n \r\n     if (isAuthorized == null){\r\n         return <div>Loading...</div>\r\n"
+                },
+                {
+                    "date": 1712150332446,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,32 @@\n+import {Navigate} from \"react-router-dom\"\r\n+import {jwtdecoder} from \"jwt-decode\"\r\n+import api from \"../api\"\r\n+import { REFRESH_TOKEN, ACCESS_TOKEN } from \"../constants\"\r\n+import { useState } from \"react\"\r\n+\r\n+function ProtectedRoute({children}) {\r\n+    const [isAuthorized, setIsAuthorized] = useState(null)\r\n+\r\n+    const refreshToken = async()=>{\r\n+\r\n+    }\r\n+\r\n+    const auth = async()=>{\r\n+        const token = localStorage.getItem(ACCESS_TOKEN)\r\n+        if(!token){\r\n+            setIsAuthorized(false)\r\n+            return\r\n+        }\r\n+        const decode = jwtdecoder(token)\r\n+        const tokenExpiration = decode.exp\r\n+        const now = Date.now() / 1000\r\n+    }\r\n+\r\n+    if (isAuthorized == null){\r\n+        return <div>Loading...</div>\r\n+    }\r\n+\r\n+    return isAuthorized? children : <Navigate to=\"/login\"/>\r\n+}\r\n+\r\n+export default ProtectedRoute\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712150341843,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,34 @@\n+import {Navigate} from \"react-router-dom\"\r\n+import {jwtdecoder} from \"jwt-decode\"\r\n+import api from \"../api\"\r\n+import { REFRESH_TOKEN, ACCESS_TOKEN } from \"../constants\"\r\n+import { useState } from \"react\"\r\n+\r\n+function ProtectedRoute({children}) {\r\n+    const [isAuthorized, setIsAuthorized] = useState(null)\r\n+\r\n+    const refreshToken = async()=>{\r\n+\r\n+    }\r\n+\r\n+    const auth = async()=>{\r\n+        const token = localStorage.getItem(ACCESS_TOKEN)\r\n+        if(!token){\r\n+            setIsAuthorized(false)\r\n+            return\r\n+        }\r\n+        const decode = jwtdecoder(token)\r\n+        const tokenExpiration = decode.exp\r\n+        const now = Date.now() / 1000\r\n+\r\n+        if()\r\n+    }\r\n+\r\n+    if (isAuthorized == null){\r\n+        return <div>Loading...</div>\r\n+    }\r\n+\r\n+    return isAuthorized? children : <Navigate to=\"/login\"/>\r\n+}\r\n+\r\n+export default ProtectedRoute\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712150349447,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n         const decode = jwtdecoder(token)\r\n         const tokenExpiration = decode.exp\r\n         const now = Date.now() / 1000\r\n \r\n-        if()\r\n+        if(tokenExpiration)\r\n     }\r\n \r\n     if (isAuthorized == null){\r\n         return <div>Loading...</div>\r\n@@ -30,69 +30,5 @@\n \r\n     return isAuthorized? children : <Navigate to=\"/login\"/>\r\n }\r\n \r\n-export default ProtectedRoute\n-import {Navigate} from \"react-router-dom\"\r\n-import {jwtdecoder} from \"jwt-decode\"\r\n-import api from \"../api\"\r\n-import { REFRESH_TOKEN, ACCESS_TOKEN } from \"../constants\"\r\n-import { useState } from \"react\"\r\n-\r\n-function ProtectedRoute({children}) {\r\n-    const [isAuthorized, setIsAuthorized] = useState(null)\r\n-\r\n-    const refreshToken = async()=>{\r\n-\r\n-    }\r\n-\r\n-    const auth = async()=>{\r\n-        const token = localStorage.getItem(ACCESS_TOKEN)\r\n-        if(!token){\r\n-            setIsAuthorized(false)\r\n-            return\r\n-        }\r\n-        const decode = jwtdecoder(token)\r\n-        const tokenExpiration = decode.exp\r\n-        const now = Date.now() / 1000\r\n-    }\r\n-\r\n-    if (isAuthorized == null){\r\n-        return <div>Loading...</div>\r\n-    }\r\n-\r\n-    return isAuthorized? children : <Navigate to=\"/login\"/>\r\n-}\r\n-\r\n-export default ProtectedRoute\n-import {Navigate} from \"react-router-dom\"\r\n-import {jwtdecoder} from \"jwt-decode\"\r\n-import api from \"../api\"\r\n-import { REFRESH_TOKEN, ACCESS_TOKEN } from \"../constants\"\r\n-import { useState } from \"react\"\r\n-\r\n-function ProtectedRoute({children}) {\r\n-    const [isAuthorized, setIsAuthorized] = useState(null)\r\n-\r\n-    const refreshToken = async()=>{\r\n-\r\n-    }\r\n-\r\n-    const auth = async()=>{\r\n-        const token = localStorage.getItem(ACCESS_TOKEN)\r\n-        if(!token){\r\n-            setIsAuthorized(false)\r\n-            return\r\n-        }\r\n-        const decode = jwtdecoder(token)\r\n-        const tokenExpiration = decode.exp\r\n-        const now = Date.now()\r\n-    }\r\n-\r\n-    if (isAuthorized == null){\r\n-        return <div>Loading...</div>\r\n-    }\r\n-\r\n-    return isAuthorized? children : <Navigate to=\"/login\"/>\r\n-}\r\n-\r\n export default ProtectedRoute\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712150358294,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n         const decode = jwtdecoder(token)\r\n         const tokenExpiration = decode.exp\r\n         const now = Date.now() / 1000\r\n \r\n-        if(tokenExpiration)\r\n+        if(tokenExpiration < 100){}\r\n     }\r\n \r\n     if (isAuthorized == null){\r\n         return <div>Loading...</div>\r\n"
+                },
+                {
+                    "date": 1712150366171,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,11 @@\n         const decode = jwtdecoder(token)\r\n         const tokenExpiration = decode.exp\r\n         const now = Date.now() / 1000\r\n \r\n-        if(tokenExpiration < 100){}\r\n+        if(tokenExpiration < 100){\r\n+            aw\r\n+        }\r\n     }\r\n \r\n     if (isAuthorized == null){\r\n         return <div>Loading...</div>\r\n"
+                },
+                {
+                    "date": 1712150372060,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,9 +21,9 @@\n         const tokenExpiration = decode.exp\r\n         const now = Date.now() / 1000\r\n \r\n         if(tokenExpiration < 100){\r\n-            aw\r\n+            await re\r\n         }\r\n     }\r\n \r\n     if (isAuthorized == null){\r\n"
+                },
+                {
+                    "date": 1712150377504,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,38 @@\n+import {Navigate} from \"react-router-dom\"\r\n+import {jwtdecoder} from \"jwt-decode\"\r\n+import api from \"../api\"\r\n+import { REFRESH_TOKEN, ACCESS_TOKEN } from \"../constants\"\r\n+import { useState } from \"react\"\r\n+\r\n+function ProtectedRoute({children}) {\r\n+    const [isAuthorized, setIsAuthorized] = useState(null)\r\n+\r\n+    const refreshToken = async()=>{\r\n+\r\n+    }\r\n+\r\n+    const auth = async()=>{\r\n+        const token = localStorage.getItem(ACCESS_TOKEN)\r\n+        if(!token){\r\n+            setIsAuthorized(false)\r\n+            return\r\n+        }\r\n+        const decode = jwtdecoder(token)\r\n+        const tokenExpiration = decode.exp\r\n+        const now = Date.now() / 1000\r\n+\r\n+        if(tokenExpiration < 100){\r\n+            await refreshToken()\r\n+        }else{\r\n+            \r\n+        }\r\n+    }\r\n+\r\n+    if (isAuthorized == null){\r\n+        return <div>Loading...</div>\r\n+    }\r\n+\r\n+    return isAuthorized? children : <Navigate to=\"/login\"/>\r\n+}\r\n+\r\n+export default ProtectedRoute\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712150384604,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,9 +23,9 @@\n \r\n         if(tokenExpiration < 100){\r\n             await refreshToken()\r\n         }else{\r\n-            setIsAuthorized\r\n+            setIsAuthorized()\r\n         }\r\n     }\r\n \r\n     if (isAuthorized == null){\r\n"
+                },
+                {
+                    "date": 1712150426568,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,38 @@\n+import {Navigate} from \"react-router-dom\"\r\n+import {jwtdecoder} from \"jwt-decode\"\r\n+import api from \"../api\"\r\n+import { REFRESH_TOKEN, ACCESS_TOKEN } from \"../constants\"\r\n+import { useState } from \"react\"\r\n+\r\n+function ProtectedRoute({children}) {\r\n+    const [isAuthorized, setIsAuthorized] = useState(null)\r\n+\r\n+    const refreshToken = async()=>{\r\n+        const refreshToken = localStorage.getItem\r\n+    }\r\n+\r\n+    const auth = async()=>{\r\n+        const token = localStorage.getItem(ACCESS_TOKEN)\r\n+        if(!token){\r\n+            setIsAuthorized(false)\r\n+            return\r\n+        }\r\n+        const decode = jwtdecoder(token)\r\n+        const tokenExpiration = decode.exp\r\n+        const now = Date.now() / 1000\r\n+\r\n+        if(tokenExpiration < now){\r\n+            await refreshToken()\r\n+        }else{\r\n+            setIsAuthorized(true)\r\n+        }\r\n+    }\r\n+\r\n+    if (isAuthorized == null){\r\n+        return <div>Loading...</div>\r\n+    }\r\n+\r\n+    return isAuthorized? children : <Navigate to=\"/login\"/>\r\n+}\r\n+\r\n+export default ProtectedRoute\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1712149765345,
+            "name": "Commit-0",
+            "content": "import"
+        }
+    ]
+}

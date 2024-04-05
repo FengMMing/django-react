@@ -1,0 +1,70 @@
+{
+    "sourceFile": "frontend/src/pages/NotFound.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 13,
+            "patches": [
+                {
+                    "date": 1712221233148,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1712221238619,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-function Home() {\r\n+function NotFound() {\r\n     return <div>Home</div>\r\n }\r\n \r\n export default Home\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712221246105,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n function NotFound() {\r\n-    return <div>Home</div>\r\n+    return <div>NotFound</div>\r\n }\r\n \r\n export default Home\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712221253300,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n function NotFound() {\r\n     return <div>NotFound</div>\r\n }\r\n \r\n-export default Home\n\\ No newline at end of file\n+export default NotFound\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712224039060,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,7 @@\n function NotFound() {\r\n-    return <div>NotFound</div>\r\n+    return <div>\r\n+        \r\n+    </div>\r\n }\r\n \r\n export default NotFound\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712224045507,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,7 @@\n+function NotFound() {\r\n+    return <div>\r\n+        <h1></h1>\r\n+    </div>\r\n+}\r\n+\r\n+export default NotFound\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712224054582,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,14 +1,7 @@\n function NotFound() {\r\n     return <div>\r\n-        <h1></h1>\r\n+        <h1>404 Not Found</h1>\r\n     </div>\r\n }\r\n \r\n-export default NotFound\n-function NotFound() {\r\n-    return <div>\r\n-        \r\n-    </div>\r\n-}\r\n-\r\n export default NotFound\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712224060832,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,8 @@\n function NotFound() {\r\n     return <div>\r\n         <h1>404 Not Found</h1>\r\n+        <p></p>\r\n     </div>\r\n }\r\n \r\n export default NotFound\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712224069084,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,8 @@\n+function NotFound() {\r\n+    return <div>\r\n+        <h1>404 Not Found</h1>\r\n+        <p>The page </p>\r\n+    </div>\r\n+}\r\n+\r\n+export default NotFound\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712224076903,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,16 +1,8 @@\n function NotFound() {\r\n     return <div>\r\n         <h1>404 Not Found</h1>\r\n-        <p>The page </p>\r\n+        <p>The page you</p>\r\n     </div>\r\n }\r\n \r\n-export default NotFound\n-function NotFound() {\r\n-    return <div>\r\n-        <h1>404 Not Found</h1>\r\n-        <p></p>\r\n-    </div>\r\n-}\r\n-\r\n export default NotFound\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712224086870,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n function NotFound() {\r\n     return <div>\r\n         <h1>404 Not Found</h1>\r\n-        <p>The page you</p>\r\n+        <p>The page you are </p>\r\n     </div>\r\n }\r\n \r\n export default NotFound\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712224094737,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n function NotFound() {\r\n     return <div>\r\n         <h1>404 Not Found</h1>\r\n-        <p>The page you are </p>\r\n+        <p>The page you are looking fro </p>\r\n     </div>\r\n }\r\n \r\n export default NotFound\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712224100790,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n function NotFound() {\r\n     return <div>\r\n         <h1>404 Not Found</h1>\r\n-        <p>The page you are looking fro </p>\r\n+        <p>The page you are looking for does </p>\r\n     </div>\r\n }\r\n \r\n export default NotFound\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712224106843,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n function NotFound() {\r\n     return <div>\r\n         <h1>404 Not Found</h1>\r\n-        <p>The page you are looking for does not exist</p>\r\n+        <p>The page you are looking for does not exist!</p>\r\n     </div>\r\n }\r\n \r\n export default NotFound\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1712221233148,
+            "name": "Commit-0",
+            "content": "function Home() {\r\n    return <div>Home</div>\r\n}\r\n\r\nexport default Home"
+        }
+    ]
+}

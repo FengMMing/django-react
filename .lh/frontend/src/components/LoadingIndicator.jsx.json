@@ -1,0 +1,54 @@
+{
+    "sourceFile": "frontend/src/components/LoadingIndicator.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 9,
+            "patches": [
+                {
+                    "date": 1712316226615,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1712316233702,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-import \n\\ No newline at end of file\n+import \"../styles/LoadingIndicator.css\"\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712316240496,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,3 @@\n-import \"../styles/LoadingIndicator.css\"\n\\ No newline at end of file\n+import \"../styles/LoadingIndicator.css\"\r\n+\r\n+const LoadingIndicator\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712316249400,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,5 @@\n+import \"../styles/LoadingIndicator.css\"\r\n+\r\n+const LoadingIndicator = () =>{\r\n+    return\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712316260600,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,5 @@\n import \"../styles/LoadingIndicator.css\"\r\n \r\n const LoadingIndicator = () =>{\r\n-    return\r\n-}\n-import \"../styles/LoadingIndicator.css\"\r\n-\r\n-const LoadingIndicator\n\\ No newline at end of file\n+    return <\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712316270726,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,7 @@\n import \"../styles/LoadingIndicator.css\"\r\n \r\n const LoadingIndicator = () =>{\r\n-    return <\r\n+    return <div>\r\n+        <div className=\"\"></div>\r\n+    </div>\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712316282941,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n import \"../styles/LoadingIndicator.css\"\r\n \r\n const LoadingIndicator = () =>{\r\n-    return <div>\r\n+    return <div className=\"loading-container\">\r\n         <div className=\"\"></div>\r\n     </div>\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712316293058,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n import \"../styles/LoadingIndicator.css\"\r\n \r\n const LoadingIndicator = () =>{\r\n     return <div className=\"loading-container\">\r\n-        <div className=\"\"></div>\r\n+        <div className=\"loader\"></div>\r\n     </div>\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712316299872,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,5 +3,7 @@\n const LoadingIndicator = () =>{\r\n     return <div className=\"loading-container\">\r\n         <div className=\"loader\"></div>\r\n     </div>\r\n-}\n\\ No newline at end of file\n+}\r\n+\r\n+export\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1712316305109,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,9 @@\n+import \"../styles/LoadingIndicator.css\"\r\n+\r\n+const LoadingIndicator = () =>{\r\n+    return <div className=\"loading-container\">\r\n+        <div className=\"loader\"></div>\r\n+    </div>\r\n+}\r\n+\r\n+export default LoadingIndicator\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1712316226615,
+            "name": "Commit-0",
+            "content": "import "
+        }
+    ]
+}
